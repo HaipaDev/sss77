@@ -1,0 +1,19 @@
+/// @description Set spleech_place_constant to Maximum
+with(obj_custommode_cntrl){
+	if(room==rm_editSPLeech_spawnCM){
+		if(spleech_place=="constant"){
+			spleech_place_constant=208;
+		}
+		if(spleech_place=="mirrored"){
+			spleech_place_constant=112;
+		}
+	}
+	if(room==rm_editHLaser_spawnCM){
+		if(hlaser_place=="constant"){
+			hlaser_place_constant=208;
+		}
+		if(hlaser_place=="mirrored"){
+			hlaser_place_constant=112;
+		}
+	}
+}

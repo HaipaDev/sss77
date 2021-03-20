@@ -1,0 +1,442 @@
+/// @description Set vars
+var cntrl=obj_custommode_cntrl;
+#region//Comet
+	#region//Base
+	if(room==rm_editcomet_armorCM){
+		txt="Hitpoints:";
+		constant=cntrl.comet_constant_armor;
+		startR=cntrl.comet_startR_armor;
+		endR=cntrl.comet_endR_armor;
+		sizeS=cntrl.comet_sizeS_armor;
+		sizeM=cntrl.comet_sizeM_armor;
+		sizeB=cntrl.comet_sizeB_armor;
+		if(cntrl.hp_system=="new")PP=true;
+		if(cntrl.hp_system=="old")PP=false;
+	}
+	if(room==rm_editcomet_speedCM){
+		txt="Speed:";
+		constant=cntrl.comet_constant_speed;
+		startR=cntrl.comet_startR_speed;
+		endR=cntrl.comet_endR_speed;
+		sizeS=cntrl.comet_sizeS_speed;
+		sizeM=cntrl.comet_sizeM_speed;
+		sizeB=cntrl.comet_sizeB_speed;
+	}
+	if(room==rm_editcomet_dmgCM){
+		txt="Damage:";
+		constant=cntrl.comet_constant_dmg;
+		startR=cntrl.comet_startR_dmg;
+		endR=cntrl.comet_endR_dmg;
+		sizeS=cntrl.comet_sizeS_dmg;
+		sizeM=cntrl.comet_sizeM_dmg;
+		sizeB=cntrl.comet_sizeB_dmg;
+		if(cntrl.hp_system=="new")PP=true;
+		if(cntrl.hp_system=="old")PP=false;
+	}
+	#endregion
+	#region//Death
+	if(room==rm_editcomet_pointsCM){
+		txt="Points:";
+		constant=cntrl.comet_constant_points;
+		startR=cntrl.comet_startR_points;
+		endR=cntrl.comet_endR_points;
+		sizeS=cntrl.comet_sizeS_points;
+		sizeM=cntrl.comet_sizeM_points;
+		sizeB=cntrl.comet_sizeB_points;
+		PP=true;
+	}
+	#endregion
+	#region//Appearance
+	if(room==rm_editcomet_sizeCM){
+		txt="Size:";
+		constant=cntrl.comet_constant_size;
+		startR=cntrl.comet_startR_size;
+		endR=cntrl.comet_endR_size;
+		sizeS=-1;
+	}
+	#endregion
+#endregion
+#region//Bat
+	#region//Base
+		if(room==rm_editbat_armorCM){
+			txt="Hitpoints:";
+			constant=cntrl.bat_constant_armor;
+			startR=cntrl.bat_startR_armor;
+			endR=cntrl.bat_endR_armor;
+			sizeS=cntrl.bat_sizeS_armor;
+			sizeM=cntrl.bat_sizeM_armor;
+			sizeB=cntrl.bat_sizeB_armor;
+			if(cntrl.hp_system=="new")PP=true;
+			if(cntrl.hp_system=="old")PP=false;
+		}
+		if(room==rm_editbat_speedCM){
+			txt="Speed:";
+			constant=cntrl.bat_constant_speed;
+			startR=cntrl.bat_startR_speed;
+			endR=cntrl.bat_endR_speed;
+			sizeS=cntrl.bat_sizeS_speed;
+			sizeM=cntrl.bat_sizeM_speed;
+			sizeB=cntrl.bat_sizeB_speed;
+		}
+		if(room==rm_editbat_dmgCM){
+			txt="Damage:";
+			constant=cntrl.bat_constant_dmg;
+			startR=cntrl.bat_startR_dmg;
+			endR=cntrl.bat_endR_dmg;
+			sizeS=cntrl.bat_sizeS_dmg;
+			sizeM=cntrl.bat_sizeM_dmg;
+			sizeB=cntrl.bat_sizeB_dmg;
+			if(cntrl.hp_system=="new")PP=true;
+			if(cntrl.hp_system=="old")PP=false;
+		}
+	#endregion
+	#region//Death
+		if(room==rm_editbat_pointsCM){
+			txt="Size:";
+			constant=cntrl.bat_constant_points;
+			startR=cntrl.bat_startR_points;
+			endR=cntrl.bat_endR_points;
+			sizeS=cntrl.bat_sizeS_points;
+			sizeM=cntrl.bat_sizeM_points;
+			sizeB=cntrl.bat_sizeB_points;
+			PP=true;
+		}
+	#endregion
+	#region//Appearance
+		if(room==rm_editbat_sizeCM){
+			txt="Size:";
+			constant=cntrl.bat_constant_size;
+			startR=cntrl.bat_startR_size;
+			endR=cntrl.bat_endR_size;
+			sizeS=-1;
+		}
+	#endregion
+	#region//Bullet
+		if(room==rm_editbat_bt_freqCM){
+			txt="Frequency:";
+			constant=cntrl.bat_bt_constant_freq;
+			startR=cntrl.bat_bt_startR_freq;
+			endR=cntrl.bat_bt_endR_freq;
+			sizeS=cntrl.bat_bt_sizeS_freq;
+			sizeM=cntrl.bat_bt_sizeM_freq;
+			sizeB=cntrl.bat_bt_sizeB_freq;
+		}
+		if(room==rm_editbat_bt_speedCM){
+			txt="Speed:";
+			constant=cntrl.bat_bt_constant_speed;
+			startR=cntrl.bat_bt_startR_speed;
+			endR=cntrl.bat_bt_endR_speed;
+			sizeS=cntrl.bat_bt_sizeS_speed;
+			sizeM=cntrl.bat_bt_sizeM_speed;
+			sizeB=cntrl.bat_bt_sizeB_speed;
+		}
+		if(room==rm_editbat_bt_dmgCM){
+			txt="Damage:";
+			constant=cntrl.bat_bt_constant_dmg;
+			startR=cntrl.bat_bt_startR_dmg;
+			endR=cntrl.bat_bt_endR_dmg;
+			sizeS=cntrl.bat_bt_sizeS_dmg;
+			sizeM=cntrl.bat_bt_sizeM_dmg;
+			sizeB=cntrl.bat_bt_sizeB_dmg;
+			if(cntrl.hp_system=="new")PP=true;
+			if(cntrl.hp_system=="old")PP=false;
+		}
+		if(room==rm_editbat_bt_sizeCM){
+			txt="Size:";
+			constant=cntrl.bat_bt_constant_size;
+			startR=cntrl.bat_bt_startR_size;
+			endR=cntrl.bat_bt_endR_size;
+			sizeS="bt";
+		}
+	#endregion
+#endregion
+#region//Enemy Ship1
+	#region//Base
+	if(room==rm_edit_enShip1_armorCM){
+		txt="Hitpoints:";
+		constant=cntrl.en_ship1_constant_armor;
+		startR=cntrl.en_ship1_startR_armor;
+		endR=cntrl.en_ship1_endR_armor;
+		sizeS=cntrl.en_ship1_sizeS_armor;
+		sizeM=cntrl.en_ship1_sizeM_armor;
+		sizeB=cntrl.en_ship1_sizeB_armor;
+		if(cntrl.hp_system=="new")PP=true;
+		if(cntrl.hp_system=="old")PP=false;
+	}
+	/*if(room==rm_edit_enShip1_speedCM){
+		txt="Speed:";
+		constant=cntrl.en_ship1_constant_speed;
+		startR=cntrl.en_ship1_startR_speed;
+		endR=cntrl.en_ship1_endR_speed;
+		sizeS=cntrl.en_ship1_sizeS_speed;
+		sizeM=cntrl.en_ship1_sizeM_speed;
+		sizeB=cntrl.en_ship1_sizeB_speed;
+	}
+	if(room==rm_edit_enShip1_dmgCM){
+		txt="Damage:";
+		constant=cntrl.en_ship1_constant_dmg;
+		startR=cntrl.en_ship1_startR_dmg;
+		endR=cntrl.en_ship1_endR_dmg;
+		sizeS=cntrl.en_ship1_sizeS_dmg;
+		sizeM=cntrl.en_ship1_sizeM_dmg;
+		sizeB=cntrl.en_ship1_sizeB_dmg;
+		if(cntrl.hp_system=="new")PP=true;
+		if(cntrl.hp_system=="old")PP=false;
+	}*/
+	#endregion
+	#region//Death
+	if(room==rm_edit_enShip1_pointsCM){
+		txt="Size:";
+		constant=cntrl.en_ship1_constant_points;
+		startR=cntrl.en_ship1_startR_points;
+		endR=cntrl.en_ship1_endR_points;
+		sizeS=cntrl.en_ship1_sizeS_points;
+		sizeM=cntrl.en_ship1_sizeM_points;
+		sizeB=cntrl.en_ship1_sizeB_points;
+		PP=true;
+	}
+	#endregion
+	#region//Appearance
+	if(room==rm_edit_enShip1_sizeCM){
+		txt="Size:";
+		constant=cntrl.en_ship1_constant_size;
+		startR=cntrl.en_ship1_startR_size;
+		endR=cntrl.en_ship1_endR_size;
+		sizeS=-1;
+	}
+	#endregion
+	#region//Bullet
+	if(room==rm_edit_enShip1_bt_freqCM){
+		txt="Frequency:";
+		constant=cntrl.en_ship1_bt_constant_freq;
+		startR=cntrl.en_ship1_bt_startR_freq;
+		endR=cntrl.en_ship1_bt_endR_freq;
+		sizeS=cntrl.en_ship1_bt_sizeS_freq;
+		sizeM=cntrl.en_ship1_bt_sizeM_freq;
+		sizeB=cntrl.en_ship1_bt_sizeB_freq;
+	}
+	if(room==rm_edit_enShip1_bt_speedCM){
+		txt="Speed:";
+		constant=cntrl.en_ship1_bt_constant_speed;
+		startR=cntrl.en_ship1_bt_startR_speed;
+		endR=cntrl.en_ship1_bt_endR_speed;
+		sizeS=cntrl.en_ship1_bt_sizeS_speed;
+		sizeM=cntrl.en_ship1_bt_sizeM_speed;
+		sizeB=cntrl.en_ship1_bt_sizeB_speed;
+	}
+	if(room==rm_edit_enShip1_bt_dmgCM){
+		txt="Damage:";
+		constant=cntrl.en_ship1_bt_constant_dmg;
+		startR=cntrl.en_ship1_bt_startR_dmg;
+		endR=cntrl.en_ship1_bt_endR_dmg;
+		sizeS=cntrl.en_ship1_bt_sizeS_dmg;
+		sizeM=cntrl.en_ship1_bt_sizeM_dmg;
+		sizeB=cntrl.en_ship1_bt_sizeB_dmg;
+		if(cntrl.hp_system=="new")PP=true;
+		if(cntrl.hp_system=="old")PP=false;
+	}
+	if(room==rm_edit_enShip1_bt_sizeCM){
+		txt="Size:";
+		constant=cntrl.en_ship1_bt_constant_size;
+		startR=cntrl.en_ship1_bt_startR_size;
+		endR=cntrl.en_ship1_bt_endR_size;
+		sizeS="en";
+		/*sizeS=cntrl.en_ship1_bt_sizeS_size;
+		sizeM=cntrl.en_ship1_bt_sizeM_size;
+		sizeB=cntrl.en_ship1_bt_sizeB_size;*/
+	}
+	#endregion//BulletSeppar is in obj_obj_bt_freqCM
+#endregion
+#region//HLaser
+if(room==rm_edit_HLaser_dmgCM){
+	txt="Damage:";
+	constant=cntrl.hlaser_constant_dmg;
+	startR=cntrl.hlaser_startR_dmg;
+	endR=cntrl.hlaser_endR_dmg;
+	sizeS=-1
+	if(cntrl.hp_system=="new")PP=true;
+	if(cntrl.hp_system=="old")PP=false;
+}
+if(room==rm_edit_HLaser_dmgintrvCM){
+	txt="Interval:";
+	constant=cntrl.hlaser_constant_dmgintrv;
+	startR=cntrl.hlaser_startR_dmgintrv;
+	endR=cntrl.hlaser_endR_dmgintrv;
+	sizeS=-1
+}
+if(room==rm_edit_HLaser_alarmCM){
+	txt="Alarm:";
+	constant=cntrl.hlaser_constant_alarm;
+	startR=cntrl.hlaser_startR_alarm;
+	endR=cntrl.hlaser_endR_alarm;
+	sizeS=-1
+}
+if(room==rm_edit_HLaser_durCM){
+	txt="Duration:";
+	constant=cntrl.hlaser_constant_dur;
+	startR=cntrl.hlaser_startR_dur;
+	endR=cntrl.hlaser_endR_dur;
+	sizeS=-1
+}
+if(room==rm_edit_HLaser_chargeCM){
+	txt="Charge:";
+	constant=cntrl.hlaser_constant_charge;
+	startR=cntrl.hlaser_startR_charge;
+	endR=cntrl.hlaser_endR_charge;
+	sizeS=-1
+}
+#endregion
+#region//SPLeech
+if(room==rm_edit_SPLeech_armorCM){
+	txt="Armor:";
+	constant=cntrl.spleech_constant_armor;
+	startR=cntrl.spleech_startR_armor;
+	endR=cntrl.spleech_endR_armor;
+	sizeS=cntrl.spleech_sizeS_armor;
+	sizeM=cntrl.spleech_sizeM_armor;
+	sizeB=cntrl.spleech_sizeB_armor;
+	if(cntrl.hp_system=="new")PP=true;
+	if(cntrl.hp_system=="old")PP=false;
+}
+if(room==rm_edit_SPLeech_dmgCM){
+	txt="Damage:";
+	constant=cntrl.spleech_constant_dmg;
+	startR=cntrl.spleech_startR_dmg;
+	endR=cntrl.spleech_endR_dmg;
+	sizeS=cntrl.spleech_sizeS_dmg;
+	sizeM=cntrl.spleech_sizeM_dmg;
+	sizeB=cntrl.spleech_sizeB_dmg;
+	if(cntrl.hp_system=="new")PP=true;
+	if(cntrl.hp_system=="old")PP=false;
+}
+if(room==rm_edit_SPLeech_dmgintrvCM){
+	txt="Interval:";
+	constant=cntrl.spleech_constant_dmgintrv;
+	startR=cntrl.spleech_startR_dmgintrv;
+	endR=cntrl.spleech_endR_dmgintrv;
+	sizeS=cntrl.spleech_sizeS_dmgintrv;
+	sizeM=cntrl.spleech_sizeM_dmgintrv;
+	sizeB=cntrl.spleech_sizeB_dmgintrv;
+}
+if(room==rm_edit_SPLeech_speedCM){
+	txt="Speed:";
+	constant=cntrl.spleech_constant_speed;
+	startR=cntrl.spleech_startR_speed;
+	endR=cntrl.spleech_endR_speed;
+	sizeS=cntrl.spleech_sizeS_speed;
+	sizeM=cntrl.spleech_sizeM_speed;
+	sizeB=cntrl.spleech_sizeB_speed;
+}
+if(room==rm_edit_SPLeech_distCM){
+	txt="Distance:";
+	constant=cntrl.spleech_constant_dist;
+	startR=cntrl.spleech_startR_dist;
+	endR=cntrl.spleech_endR_dist;
+	sizeS=cntrl.spleech_sizeS_dist;
+	sizeM=cntrl.spleech_sizeM_dist;
+	sizeB=cntrl.spleech_sizeB_dist;
+}
+if(room==rm_edit_SPLeech_shakeCM){
+	txt="Shake:";
+	constant=cntrl.spleech_constant_shake;
+	startR=cntrl.spleech_startR_shake;
+	endR=cntrl.spleech_endR_shake;
+	sizeS=cntrl.spleech_sizeS_shake;
+	sizeM=cntrl.spleech_sizeM_shake;
+	sizeB=cntrl.spleech_sizeB_shake;
+}
+
+if(room==rm_edit_SPLeech_pointsCM){
+	txt="Points:";
+	constant=cntrl.spleech_constant_points;
+	startR=cntrl.spleech_startR_points;
+	endR=cntrl.spleech_endR_points;
+	sizeS=cntrl.spleech_sizeS_points;
+	sizeM=cntrl.spleech_sizeM_points;
+	sizeB=cntrl.spleech_sizeB_points;
+}
+
+if(room==rm_edit_SPLeech_sizeCM){
+	txt="Size:";
+	constant=cntrl.spleech_constant_size;
+	startR=cntrl.spleech_startR_size;
+	endR=cntrl.spleech_endR_size;
+	sizeS=-1
+}
+#endregion
+
+#region//Create PP buttons
+if(PP==true){
+	if(!instance_exists(obj_smodeCM10))instance_create(x-46, y, obj_smodeCM10);
+	if(!instance_exists(obj_smodeCP10))instance_create(x+46, y, obj_smodeCP10);
+	if(!instance_exists(obj_smodeRSM10))instance_create(x-46, y+30, obj_smodeRSM10);
+	if(!instance_exists(obj_smodeRSP10))instance_create(x+46, y+30, obj_smodeRSP10);
+	if(!instance_exists(obj_smodeREM10))instance_create(x-46, y+47, obj_smodeREM10);
+	if(!instance_exists(obj_smodeREP10))instance_create(x+46, y+47, obj_smodeREP10);
+	if(!instance_exists(obj_smodeSSM10))instance_create(x-46, y+77, obj_smodeSSM10);
+	if(!instance_exists(obj_smodeSSP10))instance_create(x+46, y+77, obj_smodeSSP10);
+	if(!instance_exists(obj_smodeSMM10))instance_create(x-46, y+92, obj_smodeSMM10);
+	if(!instance_exists(obj_smodeSMP10))instance_create(x+46, y+92, obj_smodeSMP10);
+	if(!instance_exists(obj_smodeSBM10))instance_create(x-46, y+107, obj_smodeSBM10);
+	if(!instance_exists(obj_smodeSBP10))instance_create(x+46, y+107, obj_smodeSBP10);
+	with(obj_smodeCMIN)instance_destroy();
+	with(obj_smodeCMAX)instance_destroy();
+	with(obj_smodeRSMIN)instance_destroy();
+	with(obj_smodeRSMAX)instance_destroy();
+	with(obj_smodeREMIN)instance_destroy();
+	with(obj_smodeREMAX)instance_destroy();
+	with(obj_smodeSSMIN)instance_destroy();
+	with(obj_smodeSSMAX)instance_destroy();
+	with(obj_smodeSMMIN)instance_destroy();
+	with(obj_smodeSMMAX)instance_destroy();
+	with(obj_smodeSBMIN)instance_destroy();
+	with(obj_smodeSBMAX)instance_destroy();
+}
+#endregion
+#region//Destroy size buttons
+if(sizeS==-1){
+	with(obj_smodeS_check)instance_destroy();
+	with(obj_smodeSSMIN)instance_destroy();
+	with(obj_smodeSSM10)instance_destroy();
+	with(obj_smodeSSM)instance_destroy();
+	with(obj_smodeSSP)instance_destroy();
+	with(obj_smodeSSP10)instance_destroy();
+	with(obj_smodeSSMAX)instance_destroy();
+	
+	with(obj_smodeSMMIN)instance_destroy();
+	with(obj_smodeSMM10)instance_destroy();
+	with(obj_smodeSMM)instance_destroy();
+	with(obj_smodeSMP)instance_destroy();
+	with(obj_smodeSMP10)instance_destroy();
+	with(obj_smodeSMMAX)instance_destroy();
+	
+	with(obj_smodeSBMIN)instance_destroy();
+	with(obj_smodeSBM10)instance_destroy();
+	with(obj_smodeSBM)instance_destroy();
+	with(obj_smodeSBP)instance_destroy();
+	with(obj_smodeSBP10)instance_destroy();
+	with(obj_smodeSBMAX)instance_destroy();
+}else if(sizeS=="bt" or sizeS=="en"){
+	if(!instance_exists(obj_smodeS_check))instance_create(x-30, y+62, obj_smodeS_check);
+	with(obj_smodeSSMIN)instance_destroy();
+	with(obj_smodeSSM10)instance_destroy();
+	with(obj_smodeSSM)instance_destroy();
+	with(obj_smodeSSP)instance_destroy();
+	with(obj_smodeSSP10)instance_destroy();
+	with(obj_smodeSSMAX)instance_destroy();
+	
+	with(obj_smodeSMMIN)instance_destroy();
+	with(obj_smodeSMM10)instance_destroy();
+	with(obj_smodeSMM)instance_destroy();
+	with(obj_smodeSMP)instance_destroy();
+	with(obj_smodeSMP10)instance_destroy();
+	with(obj_smodeSMMAX)instance_destroy();
+	
+	with(obj_smodeSBMIN)instance_destroy();
+	with(obj_smodeSBM10)instance_destroy();
+	with(obj_smodeSBM)instance_destroy();
+	with(obj_smodeSBP)instance_destroy();
+	with(obj_smodeSBP10)instance_destroy();
+	with(obj_smodeSBMAX)instance_destroy();
+}
+#endregion

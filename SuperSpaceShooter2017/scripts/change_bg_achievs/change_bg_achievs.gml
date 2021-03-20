@@ -1,0 +1,11 @@
+if(global.achiev1==true)bg = spr_private_achievement;
+if(global.achiev2==true)bg = spr_sergeant_achievement;
+if(global.achiev3==true)bg = spr_spacedestroyer_achievement;
+if(global.achiev4==true)bg = spr_deathsfriend_achievement;
+if(global.achiev5==true)bg = spr_noob_achievement;
+if(global.achiev6==true)bg = spr_veteran_achievement;
+if(global.achiev7==true)bg = spr_twinkle_achievement;
+if(global.achiev8==true)bg = spr_nottoday_achievement;
+if(global.achiev9==true)bg = spr_powerman_achievement;
+if(global.achiev10==true)bg = spr_invincible_achievement;
+if(global.achievTG==true)bg = spr_gold_achievement;

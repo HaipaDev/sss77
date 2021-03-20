@@ -1,0 +1,80 @@
+/// @description Set to Minimum
+with(obj_custommode_cntrl){
+var par=obj_smodeParent;
+#region//Comet
+	#region//Base
+	if(room==rm_editcomet_armorCM){
+		if(comet_armor=="size")comet_sizeS_armor=par.min_hp;
+	}
+	if(room==rm_editcomet_speedCM){
+		if(comet_speed=="size")comet_sizeS_speed=par.min_speed;
+	}
+	if(room==rm_editcomet_dmgCM){
+		if(comet_dmg=="size")comet_sizeS_dmg=par.min_dmg;
+	}
+	#endregion
+	#region//Appearance
+
+	#endregion
+#endregion
+#region//Bat
+	#region//Base
+	if(room==rm_editbat_armorCM){
+		if(bat_armor=="size")bat_sizeS_armor=par.min_hp;
+	}
+	if(room==rm_editbat_speedCM){
+		if(bat_speed=="size")bat_sizeS_speed=par.min_speed;
+	}
+	if(room==rm_editbat_dmgCM){
+		if(bat_dmg=="size")bat_sizeS_dmg=par.min_dmg;
+	}
+	#endregion
+	#region//Appearance
+
+	#endregion
+	#region//Bullet
+		if(room==rm_editbat_bt_freqCM){
+			if(bat_bt_freq=="size")bat_bt_sizeS_freq=par.min_freq;
+		}
+		if(room==rm_editbat_bt_speedCM){
+			if(bat_bt_speed=="size")bat_bt_sizeS_speed=par.min_speed;
+		}
+		if(room==rm_editbat_bt_dmgCM){
+			if(bat_bt_dmg=="size")bat_bt_sizeS_dmg=par.min_dmg;
+		}
+		/*if(room==rm_editbat_bt_sizeCM){
+			if(bat_bt_size=="size")bat_bt_sizeS_size=par.min_size;
+		}*/
+	#endregion
+#endregion
+#region//Enemy Ship1
+	#region//Base
+	if(room==rm_edit_enShip1_armorCM){
+		if(en_ship1_armor=="size")en_ship1_sizeS_armor=par.min_hp;
+	}
+	/*if(room==rm_edit_enShip1_speedCM){
+		if(en_ship1_speed=="size")en_ship1_sizeS_speed=par.min_speed;
+	}
+	if(room==rm_edit_enShip1_dmgCM){
+		if(en_ship1_dmg=="size")en_ship1_sizeS_dmg=par.min_dmg;
+	}*/
+	#endregion
+	#region//Appearance
+
+	#endregion
+	#region//Bullet
+		if(room==rm_edit_enShip1_bt_freqCM){
+			if(en_ship1_bt_freq=="size")en_ship1_bt_sizeS_freq=par.min_freq;
+		}
+		if(room==rm_edit_enShip1_bt_speedCM){
+			if(en_ship1_bt_speed=="size")en_ship1_bt_sizeS_speed=par.min_speed;
+		}
+		if(room==rm_edit_enShip1_bt_dmgCM){
+			if(en_ship1_bt_dmg=="size")en_ship1_bt_sizeS_dmg=par.min_dmg;
+		}
+		/*if(room==rm_edit_enShip1_bt_sizeCM){
+			if(en_ship1_bt_size=="size")en_ship1_bt_sizeS_size=par.min_size;
+		}*/
+	#endregion
+#endregion
+}

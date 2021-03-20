@@ -1,0 +1,24 @@
+/// @description  Open options
+if(options_on==false){
+options_on=true;visible=false;
+with(obj_resume_button)instance_destroy();
+with(obj_arestart_button)instance_destroy();
+with(obj_restart_button)instance_destroy();
+with(obj_menu_button)instance_destroy();
+with(obj_menuCM_button)instance_destroy();
+with(obj_pause)visible=false;
+objbg=instance_create(xxbg,yybg,obj_editsCMbg);
+with(objbg){image_xscale=1.437625;image_yscale=3.75;}
+obj1=instance_create(xx1,yy1,obj_Mbar);
+obj2=instance_create(xx2,yy1,obj_mute_button);
+obj3=instance_create(xx3,yy1,obj_replay_music_button);
+obj4=instance_create(xx2,yy1+yy2t4dif,obj_mutes_button);
+obj5=instance_create(xx1,yy1+yy2t4dif,obj_Sbar);
+obj6=instance_create(xx1,yy1+(2*yy2t4dif),obj_HUD_Vis_bar);
+obj7=instance_create(xx7,yy1+(2*yy2t4dif)-8,obj_armor);
+with(obj7)inopt=true;
+obj8=instance_create(xx4,yy5,obj_mouse_cntrl_button);
+obj9=instance_create(xx5,yy5,obj_keyboard_cntrl_button);
+obj10=instance_create(xx6,yy6,obj_dmgtext_options);
+obj11=instance_create(xx8,yy8,obj_resumeS_button);
+}

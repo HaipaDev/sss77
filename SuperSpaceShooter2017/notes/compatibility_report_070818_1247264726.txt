@@ -1,0 +1,65 @@
+Converting GML script: ${project_dir}\scripts\scrDrawText\scrDrawText.gml
+Converted description /// @description  scrDrawText(x,y,text,f_color,f_type,f_size,f_align);/// @param x
+/// @param y
+/// @param text
+/// @param f_color
+/// @param f_type
+/// @param f_size
+/// @param f_align
+
+Converting GML script: ${project_dir}\scripts\scrDrawLootWindow\scrDrawLootWindow.gml
+Converted builtin - line 22: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 27: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 32: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 29: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 34: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 27: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 32: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted description /// @description  scrDrawLootWindow(location,color,alpha,outline,o_color,loot,lootHeight);/// @param location
+/// @param color
+/// @param alpha
+/// @param outline
+/// @param o_color
+/// @param loot
+/// @param lootHeight
+
+Converting GML script: ${project_dir}\scripts\scrDrawLoot\scrDrawLoot.gml
+Converted description /// @description  scrDrawLoot(x,y,icon,description,icon_width);/// @param x
+/// @param y
+/// @param icon
+/// @param description
+/// @param icon_width
+
+Font fntGUI has been converted to font family Segoe UI (Regular) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\objLootTable\Create_0.gml
+Converted description /// @description  Setup the simple loot tables
+
+Converting GML script: ${project_dir}\objects\objLootTable\Draw_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 3: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 5: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\objLootWindow\Create_0.gml
+Converted description /// @description  Setup the loot options
+
+Converting GML script: ${project_dir}\objects\objLootWindow\Draw_0.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\objLootWindow\KeyPress_32.gml
+Converted description /// @description  Close the loot window by clearing all the loot
+
+Updated compatibility script '__global_object_depths.gml'

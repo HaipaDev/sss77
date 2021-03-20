@@ -1,0 +1,39 @@
+/// @description Set powerup_start_place to Maximum
+with(obj_custommode_cntrl){
+	var par=obj_smodeParent;
+	if(room==rm_editpwruplaser_dmgCM){
+		if(ship_laser_dmg=="constant"){
+			ship_laser_dmg_constant=par.max_pwrupdmg;
+		}
+	}
+	if(room==rm_editpwrupminigun_dmgCM){
+		if(ship_minigun_dmg=="constant"){
+			ship_minigun_dmg_constant=par.max_pwrupdmg;
+		}
+	}
+	if(room==rm_editpwrupsword_dmgCM){
+		if(ship_sword_dmg=="constant"){
+			ship_sword_dmg_constant=par.max_pwrupdmg;
+		}
+	}
+	if(room==rm_editpwrupshuriken_dmgCM){
+		if(ship_shuriken_dmg=="constant"){
+			ship_shuriken_dmg_constant=par.max_pwrupdmg;
+		}
+	}
+	if(room==rm_editpwruppenetrB_dmgCM){
+		if(ship_penetrB_dmg=="constant"){
+			ship_penetrB_dmg_constant=par.max_pwrupdmg;
+		}
+	}
+	if(room==rm_editpwruparmor_recoverCM){
+		if(ship_armor_recover=="constant"){
+			ship_armor_recover_constant=par.max_pwrupdmg;
+		}
+	}
+	if(room==rm_editpwruparmor_pointsCM){
+		if(ship_armor_points=="constant"){
+			ship_armor_points_constant=par.max_pwruppts;
+		}
+	}
+}

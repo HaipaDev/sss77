@@ -1,0 +1,323 @@
+<html>
+    <head>
+        <title> GM:S Gamepad </title>
+        
+        <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://semantic-ui.com/dist/semantic.min.css">
+        <style>
+            html, body{
+                margin: 0;
+                background-color: #333;
+                
+                color: #bebebe;
+                text-align: center;
+            }
+            div.second{
+                width: 50%;
+                float: left;
+            }
+            div.second:first-of-type{
+                text-align: right;
+            }
+            div.second:nth-of-type(2){
+                text-align: left;
+            }
+            section{
+                width: 50%;
+                margin: 0px auto;
+                padding: 10px;
+                height: 100vh;
+            }
+            section ol{
+                text-align: left;
+            }
+            h3.left, p.left{
+                text-align: left;
+            }
+            h3.right, p.right{
+                text-align: right;
+            }
+            div.code{
+                padding: 10px;
+                width: 100%;
+                min-height: 2em;
+                background-color:#222;
+                margin: 0px auto;
+                text-align: left;
+                font-family: "Courier new", cursive;
+            }
+            
+            span.function{
+                color: rgb(255,184,113);
+            }
+            span.brackets{
+                color: #bebebe;
+            }
+            span.grats{
+                color:chartreuse;
+            }
+            span.string{
+                color:rgb(255,128,128);
+            }
+            span.comment{
+                color: rgb(143,239,143);
+            }
+            .huge{
+                font-size: 72px;
+            }
+            ol{
+                list-style-type: circle;
+            }
+            
+            div.left{
+                float: left;
+                width: 50%;
+            }
+            div.right{
+                float: right;
+                width: 50%;
+            }
+            p.right{
+                text-align: right;
+            }
+            div.code.left-border{
+                border-left: 1px solid #bebebe;
+            }
+            
+            ::-webkit-scrollbar {
+              width: 8px;
+              height: 8px;
+            }
+            ::-webkit-scrollbar-button {
+              width: 0px;
+              height: 0px;
+            }
+            ::-webkit-scrollbar-thumb {
+              background: #5f5f5f;
+              border: 0px none #ffffff;
+              border-radius: 0px;
+            }
+            ::-webkit-scrollbar-thumb:hover {
+              background: #4b4b4b;
+            }
+            ::-webkit-scrollbar-thumb:active {
+              background: #373737;
+            }
+            ::-webkit-scrollbar-track {
+              background: #202020;
+              border: 0px none #ffffff;
+              border-radius: 50px;
+            }
+            ::-webkit-scrollbar-track:hover {
+              background: #202020;
+            }
+            ::-webkit-scrollbar-track:active {
+              background: #202020;
+            }
+            ::-webkit-scrollbar-corner {
+              background: transparent;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <section>
+            <h2>GM:S Gamepad <i class="gamepad icon"></i><br><small> ~ By Roxari ~ </small></h2>
+        </section>
+        <section>
+            <h3 class="left">Table of contents</h3>
+            <ol class="ui inverted list">
+                <li> <b>Creating</b> a new Gamepad </li>
+                <li> <b>Configuring</b> the Gamepad </li>
+                <ol>
+                    <li> <b>Mouse Control</b></li>
+                    <li> <b>Emulating</b> a <b>Click</b></li>
+                </ol>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Get controller Type (XBOX | PLAYSTATION) </li>
+            </ol>
+        </section>
+        <section>
+            <h2>Creating a new Gamepad</h2>
+            <p class="left">
+                It's <b><i>HIGHLY</i></b> recommended to use an external object for the gamepad (so <b><i>DON'T</i></b> put it in obj_player). <br>
+                Instead, create an object for solely for the Gamepad (obj_gamepad).<br>
+                You might wonder why this is, and it is because if there are no gamepads found obj_gamepad will destroy 
+                itself, and you (might) need an obj_player in your game.<br>
+                So that being said, let's create the object obj_gamepad and give it the default create event code.<br>
+            </p>
+            <div class="code">
+                gp = gp_create(true, false);<br>
+                //this only gets called in the create event and this is solely so you have an idea what gp is
+<br>
+                //give gp the desired properties<br>
+                if(gp != false)<br>
+                {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;gp = gp_set_mouse_control(gp, true); //Enable mouse control<br>
+                }<br>
+            </div>
+            <p class="left">
+                We'll also give obj_gamepad a step event with 2 code blocks<br>
+                one code block with the following code:
+            </p>
+            <div class="code">
+                ///Mouse control<br>
+                gp_mouse_control(gp);
+            </div>
+            <p class="left">
+                And the other one will be for your input.<br>
+                Example:
+            </p>
+            <div class="code">
+                if(gamepad_button_check(gp[? "id"], gp_face1){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;with(obj_player){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PerformJump();<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                }<br>
+            </div>
+        </section>
+        <section>
+            <h2>Configuring obj_gamepad</h2>
+            <div class="left">
+                <h3>Mouse Control</h3>
+                <p class="left">
+                    <b>Enabling or disabling mouse control.</b><br>
+                    Using the gp_set_mouse_control function we can set <br>
+                    the mouse control on or off. <br>
+                    gp_set_mouse_control requires 2 parameters, <br>
+                    GamePad and a boolean (true or false)
+                </p>
+                <div class="code">
+                    var gamepad = gp_create();<br>
+                    <br>
+                    gp_set_mouse_control(gamepad, true); <br>
+                    // This turns mouse control on for gamepad<br>
+                    gp_set_mouse_control(gamepad, false); <br>
+                    // This turns mouse control off for gamepad<br><br><br>
+                </div>
+            </div>
+            <div class="right">
+                <h3>Emulating a Click</h3>
+                <p class="right">
+                    <b> Changing the "left mouse button" key</b><br>
+                    using the gp_set_left_click function, we <br>
+                    can change what button acts as the left button <br>
+                    Just like gp_set_mouse_control, gp_set_left_click <br>
+                    requires 2 parameters aswell: gamepad and a boolean.
+                </p>
+                <div class="code left-border">
+                    var gamepad = gp_create();<br>
+                    <br>
+                    gp_set_left_click(gamepad, gp_face1);
+                    // This makes the A button act as left click
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h3>gp_string_to_key and gp_key_to_string</h3>
+            <p class="left">
+                These functions can be used to convert a string notation of a key to the key<br>
+                An example of this would be:<br>
+                string to key: "R2" = gp_shoulderrb,<br>
+                key to string: gp_shoulderrb = "R2"<br>
+                <br>
+                This could be usefull in the following case:<br>
+            </p>
+            <div class="code">
+                var gamepad = gp_create();<br>
+                <br>
+                if(gamepad_button_check(gamepad, gp_string_to_key("square"))){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;//Do something<br>
+                }<br>
+                //This would be the same as<br>
+                if(gamepad_button_check(gamepad, gp_face3)){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;//Do something<br>
+                }
+            </div>
+            <p class="left">
+                Now, gp_key_to_string on the otherhand is usefull for creating a controls setting page,<br>
+                say you had people press a button on the controller (e.g. R3) this would return gp_stickr<br>
+                So you would tell the player they pressed gp_stickr, however, string(gp_stickr) returns 32780. <br>
+                Now you can call this function:
+            </p>
+            <div class="code">
+                var key = gp_stickr; //key = 32780<br>
+                key = string(key) //key = string(32780) <br>
+                key = gp_key_to_string(gp_stickr) //key = "R3" <br>
+                
+            </div>
+        </section>
+        <section>
+            <h3>Getting the contoller type</h3>
+            <p class="left">
+                to get the controller type you call the function: gp_controllerify<br>
+                It takes one parameter: the gamepad description, and one optional<br>
+                parameter: debug (boolean)
+            </p>
+            <div class="code">
+                var gamepad = gp_create();<br>
+                
+                gp_controllerify(gamepad_get_description(gamepad[? "id"]));//returns XBOX or PLAYSTATION
+            </div>
+        </section>
+    </body>
+    <script>
+        $(document).ready(function(){
+            $(".code").each(function(index){
+                var txt = $(".code")[index].innerHTML;
+                var VariableReg = /var/g;
+                var ifelseifReg = /(if|else|else if)/g;
+                var stringRegex = /"([\w\W]+)"/g;
+                var gpfunctions = /(gp_create|gp_set_mouse_control|{|}|gp_mouse_control|gp_set_left_click|gamepad_button_check|PerformJump|with|gp_string_to_key|gp_controller|y|gamepad_get_description|gp_key_to_string)/g;
+                var boolean_etc = /(true|false|[\d]|gp_face1|gp_face2|gp_face3|gp_face4|gp_stickr|obj_player)/g;
+                var commentRege = /\/\/([\w ]+)/g;
+                
+                txt = txt.replace(stringRegex, "<span class=\"string\">\"$1\"</span>")
+                txt = txt.replace(VariableReg, "<span class=\"function\">var</span>");
+                txt = txt.replace(ifelseifReg, "<span class=\"function\">$1</span>");
+                txt = txt.replace(gpfunctions, "<span class=\"function\">$1</span>");
+                txt = txt.replace(boolean_etc, "<span class=\"string\">$1</span>");
+                txt = txt.replace(commentRege, "<span class=\"comment\">\/\/$1</span>")
+                
+                $(".code")[index].innerHTML = txt;
+            });
+        });
+    </script>
+    <script>
+        //snap when scrolling
+        "function"!=typeof Object.create&&(Object.create=function(e){function t(){}return t.prototype=e,new t}),function(e,t,n,o){"use strict";var i="panelSnap",a="plugin_"+i,s={isMouseDown:!1,isSnapping:!1,enabled:!0,scrollOffset:0,init:function(t,o){var i=this;if(i.container=o,i.$container=e(o),i.$eventContainer=i.$container,i.$snapContainer=i.$container,i.$container.is("body")){i.$eventContainer=e(n),i.$snapContainer=e(n.documentElement);var a=navigator.userAgent;~a.indexOf("WebKit")&&(i.$snapContainer=e("body"))}if(i.options=e.extend(!0,{},e.fn.panelSnap.options,t),i.bind(),i.options.$menu!==!1&&e(".active",i.options.$menu).length>0)e(".active",i.options.$menu).click();else{var s=i.getPanel(":first");i.activatePanel(s)}return i},bind:function(){var n=this;n.bindProxied(n.$eventContainer,"scrollstop",n.scrollStop),n.bindProxied(n.$eventContainer,"mousewheel",n.mouseWheel),n.bindProxied(n.$eventContainer,"mousedown",n.mouseDown),n.bindProxied(n.$eventContainer,"mouseup",n.mouseUp),n.bindProxied(e(t),"resizestop",n.resize),n.options.$menu&&n.bindProxied(n.options.$menu,"click",n.captureMenuClick,n.options.menuSelector),(n.options.navigation.keys.nextKey||n.options.navigation.keys.prevKey)&&n.bindProxied(e(t),"keydown",n.keyDown),n.options.navigation.buttons.$nextButton&&n.bindProxied(n.options.navigation.buttons.$nextButton,"click",n.captureNextClick),n.options.navigation.buttons.$prevButton&&n.bindProxied(n.options.navigation.buttons.$prevButton,"click",n.capturePrevClick)},bindProxied:function(t,n,o,i){var a=this;i="string"==typeof i?i:null,t.on(n+a.options.namespace,i,e.proxy(function(e){return o.call(a,e)},a))},destroy:function(){var n=this;n.$eventContainer.off(n.options.namespace),e(t).off(n.options.namespace),n.options.$menu!==!1&&e(n.options.menuSelector,n.options.$menu).off(n.options.namespace),n.$container.removeData(a)},scrollStop:function(e){var t=this;if(e.stopPropagation(),!t.isMouseDown&&!t.isSnapping){var n=t.getPanelsInViewport();if(!t.enabled||n.length<2)return r=n.eq(0),void(r.is(t.getPanel(".active"))||t.activatePanel(r));var o,i=t.$snapContainer.scrollTop(),a=i-t.scrollOffset,s=Math.abs(a)>t.options.directionThreshold;if(a>0)o=s?1:0;else{if(!(0>a))return;o=s?0:1}var r=n.eq(o),l=t.$container[0].scrollHeight-t.scrollInterval;0>=i||i>=l?(t.activatePanel(r),t.scrollOffset=0>=i?0:l):t.snapToPanel(r)}},getPanelsInViewport:function(){var t=this,n={top:t.$snapContainer.scrollTop()};n.bottom=n.top+t.$snapContainer.height();var o=t.getPanel().filter(function(o,i){var a,s=e(i);return t.$container.is("body")?a=s.offset():(a=s.position(),a.top+=t.$snapContainer.scrollTop()),a.bottom=a.top+s.outerHeight(),!(n.bottom<a.top||n.top>a.bottom)});return o},mouseWheel:function(e){var t=this;t.isSnapping&&(t.scrollOffset=t.$snapContainer.scrollTop(),t.$snapContainer.stop(!0),t.isSnapping=!1)},mouseDown:function(e){var t=this;t.isMouseDown=!0},mouseUp:function(e){var t=this;t.isMouseDown=!1,t.scrollOffset!==t.$snapContainer.scrollTop()&&t.scrollStop(e)},keyDown:function(e){var t=this,n=t.options.navigation;if(t.enabled){switch(e.which){case n.keys.prevKey:case n.keys.nextKey:e.preventDefault()}if(!t.isSnapping)switch(e.which){case n.keys.prevKey:t.snapTo("prev",n.wrapAround);break;case n.keys.nextKey:t.snapTo("next",n.wrapAround)}}},captureNextClick:function(e){var t=this;e.preventDefault(),t.isSnapping||t.snapTo("next",t.options.navigation.wrapAround)},capturePrevClick:function(e){var t=this;e.preventDefault(),t.isSnapping||t.snapTo("prev",t.options.navigation.wrapAround)},resize:function(e){var t=this;if(t.enabled){var n=t.getPanel(".active");t.snapToPanel(n)}},captureMenuClick:function(t){var n=this,o=e(t.currentTarget).data("panel"),i=n.getPanel('[data-panel="'+o+'"]');return n.snapToPanel(i),!1},snapToPanel:function(e){var t=this;if(e.jquery){t.isSnapping=!0,t.options.onSnapStart.call(t,e),t.$container.trigger("panelsnap:start",[e]);var n=0;n=t.$container.is("body")?e.offset().top:t.$snapContainer.scrollTop()+e.position().top,n-=t.options.offset,t.$snapContainer.stop(!0).delay(t.options.delay).animate({scrollTop:n},t.options.slideSpeed,t.options.easing,function(){t.scrollOffset=t.$snapContainer.scrollTop(),t.isSnapping=!1,t.options.onSnapFinish.call(t,e),t.$container.trigger("panelsnap:finish",[e]),t.activatePanel(e)})}},activatePanel:function(t){var n=this;if(n.getPanel(".active").removeClass("active"),t.addClass("active"),n.options.$menu!==!1){var o=n.options.menuSelector+".active";e(o,n.options.$menu).removeClass("active");var i='[data-panel="'+t.data("panel")+'"]',a=n.options.menuSelector+i,s=e(a,n.options.$menu);s.addClass("active")}var r=n.options.navigation;if(!r.wrapAround){var l=n.getPanel(),c=l.index(n.getPanel(".active"));r.buttons.$nextButton!==!1&&(t=l.eq(c+1),t.length<1?(e(r.buttons.$nextButton).attr("aria-disabled","true"),e(r.buttons.$nextButton).addClass("disabled")):(e(r.buttons.$nextButton).attr("aria-disabled","false"),e(r.buttons.$nextButton).removeClass("disabled"))),r.buttons.$prevButton!==!1&&(1>c?(e(r.buttons.$prevButton).attr("aria-disabled","true"),e(r.buttons.$prevButton).addClass("disabled")):(e(r.buttons.$prevButton).attr("aria-disabled","false"),e(r.buttons.$prevButton).removeClass("disabled")))}n.options.onActivate.call(n,t),n.$container.trigger("panelsnap:activate",[t])},getPanel:function(t){var n=this;return"undefined"==typeof t&&(t=""),e(n.options.panelSelector+t,n.$container)},snapTo:function(e,t){var n=this;"boolean"!=typeof t&&(t=!0);var o,i=n.getPanel(),a=i.index(n.getPanel(".active"));switch(e){case"prev":o=i.eq(a-1),1>a&&!t&&(o=[]);break;case"next":o=i.eq(a+1),o.length<1&&t&&(o=i.filter(":first"));break;case"first":o=i.filter(":first");break;case"last":o=i.filter(":last")}o.length>0&&n.snapToPanel(o)},enable:function(){var e=this;e.scrollOffset=e.$snapContainer.scrollTop(),e.enabled=!0},disable:function(){var e=this;e.enabled=!1},toggle:function(){var e=this;e.enabled?e.disable():e.enable()}};e.fn[i]=function(t){var n=Array.prototype.slice.call(arguments);return this.each(function(){var o=e.data(this,a);if("object"!=typeof t&&"init"!==t&&t){if(!o)return void e.error("Plugin is not initialized for this object yet.");if(!o[t])return void e.error("Method "+t+" does not exist on jQuery.panelSnap.");var i=t;t=n.slice(1),o[i].apply(o,t)}else{if(o)return void e.error("Plugin is already initialized for this object.");"init"===t&&(t=n[1]||{}),o=Object.create(s).init(t,this),e.data(this,a,o)}})},e.fn[i].options={$menu:!1,menuSelector:"a",panelSelector:"> section",namespace:".panelSnap",onSnapStart:function(){},onSnapFinish:function(){},onActivate:function(){},directionThreshold:50,slideSpeed:200,delay:0,easing:"linear",offset:0,navigation:{keys:{nextKey:!1,prevKey:!1},buttons:{$nextButton:!1,$prevButton:!1},wrapAround:!1}}}(jQuery,window,document),function(e){e.event.special.scrollstart={enabled:!0,setup:function(){function t(e,t){e.type=t?"scrollstart":"scrollstop",a.trigger(e)}var n,o,i=this,a=e(i);a.data("scrollwatch",!0),a.on("touchstart",function(e){o=!0}),a.on("touchleave touchcancel touchend",function(e){o=!1,setTimeout(function(){clearTimeout(n)},50)}),a.on("touchmove scroll",function(i){o||e.event.special.scrollstart.enabled&&(e.event.special.scrollstart.scrolling||(e.event.special.scrollstart.scrolling=!0,t(i,!0)),clearTimeout(n),n=setTimeout(function(){e.event.special.scrollstart.scrolling=!1,t(i,!1)},50))})}},e.event.special.scrollstop={setup:function(){var t=this,n=e(t);n.data("scrollwatch")||e(this).on("scrollstart",function(){})}}}(jQuery),function(e){e.event.special.resizestart={enabled:!0,setup:function(){function t(e,t){e.type=t?"resizestart":"resizestop",i.trigger(e)}var n,o=this,i=e(o);i.data("resizewatch",!0),i.on("resize",function(o){e.event.special.resizestart.enabled&&(e.event.special.resizestart.resizing||(e.event.special.resizestart.resizing=!0,t(o,!0)),clearTimeout(n),n=setTimeout(function(){e.event.special.resizestart.resizing=!1,t(o,!1)},200))})}},e.event.special.resizestop={setup:function(){var t=this,n=e(t);n.data("resizewatch")||e(this).on("resizestart",function(){})}}}(jQuery),function(e){function t(t){var n=t||window.event,o=[].slice.call(arguments,1),i=0,a=0,s=0;return t=e.event.fix(n),t.type="mousewheel",n.wheelDelta&&(i=n.wheelDelta/120),n.detail&&(i=-n.detail/3),s=i,void 0!==n.axis&&n.axis===n.HORIZONTAL_AXIS&&(s=0,a=-1*i),void 0!==n.wheelDeltaY&&(s=n.wheelDeltaY/120),void 0!==n.wheelDeltaX&&(a=-1*n.wheelDeltaX/120),o.unshift(t,i,a,s),(e.event.dispatch||e.event.handle).apply(this,o)}var n=["DOMMouseScroll","mousewheel"];if(e.event.fixHooks)for(var o=n.length;o;)e.event.fixHooks[n[--o]]=e.event.mouseHooks;e.event.special.mousewheel={setup:function(){if(this.addEventListener)for(var e=n.length;e;)this.addEventListener(n[--e],t,!1);else this.onmousewheel=t},teardown:function(){if(this.removeEventListener)for(var e=n.length;e;)this.removeEventListener(n[--e],t,!1);else this.onmousewheel=null}},e.fn.extend({mousewheel:function(e){return e?this.bind("mousewheel",e):this.trigger("mousewheel")},unmousewheel:function(e){return this.unbind("mousewheel",e)}})}(jQuery);
+        var options = {
+          $menu: false,
+          menuSelector: 'a',
+          panelSelector: '> section',
+          namespace: '.panelSnap',
+          onSnapStart: function(){},
+          onSnapFinish: function(){},
+          onActivate: function(){},
+          directionThreshold: 50,
+          slideSpeed: 200,
+          delay: 0,
+          easing: 'linear',
+          offset: 0,
+          navigation: {
+            keys: {
+              nextKey: false,
+              prevKey: false,
+            },
+            buttons: {
+              $nextButton: false,
+              $prevButton: false,
+            },
+            wrapAround: false
+          }
+        };
+        $("body").panelSnap(options);
+    </script>
+</html>

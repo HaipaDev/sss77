@@ -1,0 +1,19 @@
+Converting GML script: ${project_dir}\scripts\scrItemHover\scrItemHover.gml
+Converted description /// @description  scrItemHover(icon,name,type,dmg,desc,quality,bonus1,bonus2,req);/// @param icon
+/// @param name
+/// @param type
+/// @param dmg
+/// @param desc
+/// @param quality
+/// @param bonus1
+/// @param bonus2
+/// @param req
+
+!!! Font fntHud uses a font (Lato Black) not installed on this system - Font has NOT been regenerated
+!!! Font fntHud2 uses a font (Lato Black) not installed on this system - Font has NOT been regenerated
+!!! Font fntHud3 uses a font (Lato Black) not installed on this system - Font has NOT been regenerated
+Converting GML script: ${project_dir}\objects\objWeapons\Create_0.gml
+Converted description /// @description  Create global weapons
+
+Converting GML script: ${project_dir}\objects\objWeapons\Draw_64.gml
+Converted description /// @description  Help text

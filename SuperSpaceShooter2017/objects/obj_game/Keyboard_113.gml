@@ -1,0 +1,51 @@
+/// @description  Debug Mode
+if(debugmode==true){
+if(keyboard_check_pressed(ord("1"))){
+	skin_unlock_all();
+	if(keyboard_check_pressed(ord("I"))){
+	global.candies=60;
+	global.bats_killed=50;
+	global.hrplayed=15;
+	global.october_chlng1=1;
+	global.october_chlng2=1;
+	global.october_chlng3=1;
+	global.october_chlngs=3;
+	global.bballs=40
+	}
+	global.skin_blackweb=18;
+	global.skin_bball=19;
+}
+if(keyboard_check_pressed(ord("2"))){
+	skin_lock_all();
+}
+if(keyboard_check_pressed(ord("3"))){
+	global.stars+=40;global.starpieces+=400;
+}
+if(keyboard_check_pressed(ord("4"))){
+	global.drop2=1;global.drop3=0;global.drop4=0;
+}
+if(keyboard_check_pressed(ord("5"))){
+	global.drop3=1;global.drop2=0;global.drop4=0;
+}
+if(keyboard_check_pressed(ord("6"))){
+	global.drop4=1;global.drop2=0;global.drop3=0;
+}
+if(keyboard_check_pressed(ord("7"))){
+	global.october=true;
+	global.summer=false;
+	global.winter=false;
+}
+if(keyboard_check_pressed(ord("8"))){
+	global.summer=true;
+	global.october=false;
+	global.winter=false;
+}
+if(keyboard_check_pressed(ord("9"))){
+	global.winter=true;
+	global.summer=false;
+	global.october=false;
+}
+if(keyboard_check_pressed(ord("0"))){
+	reset_dtimer();
+}
+}

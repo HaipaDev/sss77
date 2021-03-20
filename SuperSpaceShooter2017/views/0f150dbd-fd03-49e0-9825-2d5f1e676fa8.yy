@@ -1,0 +1,31 @@
+{
+    "id": "0f150dbd-fd03-49e0-9825-2d5f1e676fa8",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "0f150dbd-fd03-49e0-9825-2d5f1e676fa8",
+    "children": [
+        "efc6332c-c278-43c8-9d11-af1209db32bb",
+        "88e25548-27eb-438f-9c34-dfb9d52f6c3c",
+        "6a0a8fa3-983d-4471-b059-b3e0eef587e9",
+        "cc4e13ff-9a38-4716-9fd8-86fd2d555f31",
+        "7cff2c10-18d6-4eff-869c-794cc49d00b0",
+        "fabbbba9-fa0d-4a35-afba-2723c4088280",
+        "b5282f27-8795-4567-bc80-4bf1051c776b",
+        "64d3213d-74ee-42ca-a2bb-8207f476c5b5",
+        "e5453f33-5c40-48ab-b6bb-0fe21602f097",
+        "3e94b068-b225-40c7-bbef-04501f10b8e7",
+        "3c65c773-3773-4589-91ca-fbbcc576d655",
+        "e81a8dda-0e63-4a9d-9d89-ddb432ec4cdc",
+        "6ddb1cdf-4220-4dc7-a8ff-02ac1830ca82",
+        "db6a470f-9a8c-4c2d-86e5-c5fe91b2be36",
+        "9a3629f3-f17f-46fd-8b7b-9cdc415cadfe",
+        "62ac5b74-deba-4956-840e-ca74319f890f",
+        "0bc2e4d3-1520-416c-bc7d-6921295d7918",
+        "57c8bb44-60f5-48bf-a5cb-af979b767681",
+        "5ea102b1-dacd-439b-b428-d9bf9394efd8"
+    ],
+    "filterType": "GMIncludedFile",
+    "folderName": "sound",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

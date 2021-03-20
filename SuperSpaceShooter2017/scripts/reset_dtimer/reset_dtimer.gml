@@ -1,0 +1,2 @@
+obj_daily_claim_button.sdate=date_create_datetime(date_get_year(date_current_datetime()),date_get_month(date_current_datetime()),date_get_day(date_current_datetime()-1),date_get_hour(date_current_datetime()-1),date_get_minute(date_current_datetime()),date_get_second(date_current_datetime()));
+//obj_daily_claim_button.claimed=false;

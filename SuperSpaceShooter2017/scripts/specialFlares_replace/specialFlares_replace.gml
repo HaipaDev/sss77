@@ -1,0 +1,1 @@
+instance_create(xx1, yy1, obj_flare18);

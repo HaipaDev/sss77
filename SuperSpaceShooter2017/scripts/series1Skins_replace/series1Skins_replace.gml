@@ -1,0 +1,16 @@
+instance_create(xx1, yy1, obj_skin1);
+instance_create(xx2, yy2, obj_skin5);
+instance_create(xx3, yy3, obj_skin8);
+instance_create(xx4, yy4, obj_skin9);
+instance_create(xx5, yy5, obj_skin11);
+instance_create(xx6, yy6, obj_skin12);
+instance_create(xx7, yy7, obj_skin17);
+instance_create(xx8, yy8, obj_skin4);
+instance_create(xx9, yy9, obj_skin7);
+instance_create(xx10, yy10, obj_skin6);
+instance_create(xx11, yy11, obj_skin14);
+instance_create(xx12, yy12, obj_skin16);
+instance_create(xx13, yy13, obj_skin10);
+instance_create(xx14, yy14, obj_skin15);
+instance_create(xx15, yy15, obj_skin3);
+instance_create(xx16, yy16, obj_skin13);

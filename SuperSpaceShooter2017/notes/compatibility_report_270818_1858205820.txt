@@ -1,0 +1,14 @@
+Converting GML script: ${project_dir}\objects\obj_example\Create_0.gml
+Converted description /// @description  Wait for game window to completely open ...
+
+Converting GML script: ${project_dir}\objects\obj_example\Alarm_0.gml
+Converted description /// @description  Run external files, games, or applications ...
+Converted string - line 17: '"C:\Windows\System32\notepad.exe" "' -> "\"C:\\Windows\\System32\\notepad.exe\" \""
+Converted string - line 17: 'example.txt"' -> "example.txt\""
+Converted string - line 18: '"C:\Windows\System32\calc.exe"' -> "\"C:\\Windows\\System32\\calc.exe\""
+Converted string - line 25: '"/Applications/TextEdit.app/Contents/MacOS/TextEdit" "' -> "\"/Applications/TextEdit.app/Contents/MacOS/TextEdit\" \""
+Converted string - line 25: 'example.txt"' -> "example.txt\""
+Converted string - line 26: '"/Applications/Calculator.app/Contents/MacOS/Calculator"' -> "\"/Applications/Calculator.app/Contents/MacOS/Calculator\""
+Converted string - line 33: '"/usr/bin/gedit" "' -> "\"/usr/bin/gedit\" \""
+Converted string - line 33: 'example.txt"' -> "example.txt\""
+Converted string - line 34: '"/usr/bin/gnome-calculator"' -> "\"/usr/bin/gnome-calculator\""

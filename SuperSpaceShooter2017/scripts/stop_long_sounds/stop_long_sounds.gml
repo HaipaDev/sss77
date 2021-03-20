@@ -1,0 +1,12 @@
+audio_stop_sound(snd_homing_laser);
+audio_stop_sound(snd_hlaser_charge);
+audio_stop_sound(snd_hlaser_shoot);
+audio_stop_sound(snd_starpiece_fall);
+audio_stop_sound(snd_starpiece_fall_dark);
+audio_stop_sound(snd_starcont_fall);
+audio_stop_sound(snd_gclover_fall);
+audio_stop_sound(snd_dclover_fall);
+audio_stop_sound(snd_shadowbt_fall);
+audio_stop_sound(snd_shadowbt_powerup);
+audio_stop_sound(snd_comet);
+audio_stop_sound(snd_death);

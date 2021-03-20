@@ -1,0 +1,383 @@
+#region//Other
+	//Save slot is set once in obj_custommode_cntrl
+	save_name="Edit Name";
+	hp_system="old"
+	game_version=global.version;
+	rndmz_ship=true;
+	rndmz_pwrups=true;
+	rndmz_pwrup_props=true;
+	rndmz_enemies=true;
+	rndmz_waves=true;
+#endregion
+#region//Ship
+	ship_armor=4;
+	default_powerup="default";
+	ship_stateFlip=false;
+	ship_stateGClover=false;
+	ship_stateShadow=false;
+#endregion
+#region//Powerups
+	armor_checked=true;
+	plaser_checked=true;
+	sword_checked=true;
+	minigun_checked=true;
+	shuriken_checked=true;
+	penetrB_checked=true;
+	flip_checked=true;
+	shadowtr_checked=true;
+	
+	gclover_checked=true;
+	shadowbt_checked=true;
+	
+	csword_checked=false;
+	qrockets_checked=false;
+	plrockets_checked=false;
+	powerup_frequency=10;
+	powerup_place="random";
+	powerup_constant_place=112;
+	powerup_start_place=16;
+	powerup_end_place=208;
+	
+	//Properties
+	#region//Damage
+	ship_laser_dmg="constant";
+	ship_laser_dmg_round=false;
+	ship_laser_dmg_constant=1;
+	ship_laser_dmg_startR=1;
+	ship_laser_dmg_endR=2;
+	ship_sword_dmg="constant";
+	ship_sword_dmg_round=false;
+	ship_sword_dmg_constant=5;
+	ship_sword_dmg_startR=3;
+	ship_sword_dmg_endR=6;
+	ship_minigun_dmg="constant";
+	ship_minigun_dmg_round=false;
+	ship_minigun_dmg_constant=0.1;
+	ship_minigun_dmg_startR=0.05;
+	ship_minigun_dmg_endR=0.2;
+	ship_shuriken_dmg="constant";
+	ship_shuriken_dmg_round=false;
+	ship_shuriken_dmg_constant=1.5;
+	ship_shuriken_dmg_startR=1.4;
+	ship_shuriken_dmg_endR=2.1;
+	ship_penetrB_dmg="constant";
+	ship_penetrB_dmg_round=false;
+	ship_penetrB_dmg_constant=0.5;
+	ship_penetrB_dmg_startR=0.3;
+	ship_penetrB_dmg_endR=0.7;
+	ship_armor_recover="constant";
+	ship_armor_recover_round=false;
+	ship_armor_recover_constant=1;
+	ship_armor_recover_startR=0.5;
+	ship_armor_recover_endR=2;
+	ship_armor_points="constant";
+	ship_armor_points_constant=25;
+	ship_armor_points_startR=20;
+	ship_armor_points_endR=50;
+	#endregion
+#endregion
+#region//Enemies
+#region//Comet
+	comet_armor="size";
+	comet_constant_armor=2;
+	comet_startR_armor=1;
+	comet_endR_armor=3;
+	comet_sizeS_armor=1;
+	comet_sizeM_armor=2;
+	comet_sizeB_armor=3;
+	comet_speed="random";
+	comet_constant_speed=4;
+	comet_startR_speed=3;
+	comet_endR_speed=5;
+	comet_sizeS_speed=4;
+	comet_sizeM_speed=3;
+	comet_sizeB_speed=3;
+	comet_dmg="constant";
+	comet_constant_dmg=1;
+	comet_startR_dmg=1;
+	comet_endR_dmg=2;
+	comet_sizeS_dmg=1;
+	comet_sizeM_dmg=1;
+	comet_sizeB_dmg=2;
+	comet_points="random"
+	comet_constant_points=6;
+	comet_startR_points=5;
+	comet_endR_points=7;
+	comet_sizeS_points=5;
+	comet_sizeM_points=6;
+	comet_sizeB_points=7;
+	comet_size="random";
+	comet_constant_size=.65;
+	comet_startR_size=.35;
+	comet_endR_size=1;
+	#endregion
+	
+#region//Bat
+	bat_armor="constant";
+	bat_constant_armor=4;
+	bat_startR_armor=3;
+	bat_endR_armor=5;
+	bat_sizeS_armor=3;
+	bat_sizeM_armor=4;
+	bat_sizeB_armor=5;
+	bat_speed="constant";
+	bat_constant_speed=1;
+	bat_startR_speed=1;
+	bat_endR_speed=2;
+	bat_sizeS_speed=2;
+	bat_sizeM_speed=1;
+	bat_sizeB_speed=1;
+	bat_dmg="constant";
+	bat_constant_dmg=1;
+	bat_startR_dmg=1;
+	bat_endR_dmg=2;
+	bat_sizeS_dmg=1;
+	bat_sizeM_dmg=1;
+	bat_sizeB_dmg=2;
+	bat_points="random"
+	bat_constant_points=5;
+	bat_startR_points=4;
+	bat_endR_points=8;
+	bat_sizeS_points=4;
+	bat_sizeM_points=6;
+	bat_sizeB_points=8;
+	bat_size="constant";
+	bat_constant_size=1;
+	bat_startR_size=0.5;
+	bat_endR_size=1.4;
+
+	bat_bt_freq="random";
+	bat_bt_constant_freq=1.2;
+	bat_bt_startR_freq=0.85;
+	bat_bt_endR_freq=1.55;
+	bat_bt_sizeS_freq=0.7;
+	bat_bt_sizeM_freq=1.3;
+	bat_bt_sizeB_freq=2.4;
+	bat_bt_speed="constant";
+	bat_bt_constant_speed=3.9;
+	bat_bt_startR_speed=3.7;
+	bat_bt_endR_speed=4.2;
+	bat_bt_sizeS_speed=4.5;
+	bat_bt_sizeM_speed=3.9;
+	bat_bt_sizeB_speed=3.3;
+	bat_bt_dmg="constant";
+	bat_bt_constant_dmg=1;
+	bat_bt_startR_dmg=1;
+	bat_bt_endR_dmg=2;
+	bat_bt_sizeS_dmg=1;
+	bat_bt_sizeM_dmg=1;
+	bat_bt_sizeB_dmg=2;
+	bat_bt_size="constant";
+	bat_bt_constant_size=1;
+	bat_bt_startR_size=0.6;
+	bat_bt_endR_size=1.2;
+	bat_bt_sizeS_size=0.35;
+	bat_bt_sizeM_size=0.9;
+	bat_bt_sizeB_size=1.8;
+#endregion
+	
+#region//Enemy Ship
+	en_ship1_armor="constant";
+	en_ship1_constant_armor=21;
+	en_ship1_startR_armor=17;
+	en_ship1_endR_armor=23;
+	en_ship1_sizeS_armor=16;
+	en_ship1_sizeM_armor=21;
+	en_ship1_sizeB_armor=25;
+	/*en_ship1_speed="constant";
+	en_ship1_constant_speed=1;
+	en_ship1_startR_speed=1;
+	en_ship1_endR_speed=2;
+	en_ship1_sizeS_speed=2;
+	en_ship1_sizeM_speed=1;
+	en_ship1_sizeB_speed=1;
+	en_ship1_dmg="constant";
+	en_ship1_constant_dmg=1;
+	en_ship1_startR_dmg=1;
+	en_ship1_endR_dmg=2;
+	en_ship1_sizeS_dmg=1;
+	en_ship1_sizeM_dmg=1;
+	en_ship1_sizeB_dmg=2;*/
+	en_ship1_points="random"
+	en_ship1_constant_points=13;
+	en_ship1_startR_points=11;
+	en_ship1_endR_points=15;
+	en_ship1_sizeS_points=10;
+	en_ship1_sizeM_points=13;
+	en_ship1_sizeB_points=15;
+	en_ship1_size="constant";
+	en_ship1_constant_size=1;
+	en_ship1_startR_size=0.5;
+	en_ship1_endR_size=1.6;
+
+	en_ship1_bt_freq="constant";
+	en_ship1_bt_constant_freq=0.6;
+	en_ship1_bt_startR_freq=0.35;
+	en_ship1_bt_endR_freq=1.35;
+	en_ship1_bt_sizeS_freq=0.3;
+	en_ship1_bt_sizeM_freq=0.6;
+	en_ship1_bt_sizeB_freq=0.9;
+	en_ship1_bt_speed="constant";
+	en_ship1_bt_constant_speed=3.9;
+	en_ship1_bt_startR_speed=3.5;
+	en_ship1_bt_endR_speed=4.5;
+	en_ship1_bt_sizeS_speed=4.5;
+	en_ship1_bt_sizeM_speed=3.4;
+	en_ship1_bt_sizeB_speed=2.3;
+	en_ship1_bt_dmg="constant";
+	en_ship1_bt_constant_dmg=1;
+	en_ship1_bt_startR_dmg=1;
+	en_ship1_bt_endR_dmg=2;
+	en_ship1_bt_sizeS_dmg=1;
+	en_ship1_bt_sizeM_dmg=1;
+	en_ship1_bt_sizeB_dmg=2;
+	en_ship1_bt_size="constant";
+	en_ship1_bt_constant_size=1;
+	en_ship1_bt_startR_size=0.6;
+	en_ship1_bt_endR_size=1.2;
+	
+	en_ship1_bt_seppar=12;
+#endregion
+
+
+#region//Homing Laser
+	/*hlaser_armor="constant";
+	hlaser_constant_armor=21;
+	hlaser_startR_armor=17;
+	hlaser_endR_armor=23;
+	hlaser_sizeS_armor=16;
+	hlaser_sizeM_armor=21;
+	hlaser_sizeB_armor=25;*/
+	/*hlaser_speed="constant";
+	hlaser_constant_speed=1;
+	hlaser_startR_speed=1;
+	hlaser_endR_speed=2;
+	hlaser_sizeS_speed=2;
+	hlaser_sizeM_speed=1;
+	hlaser_sizeB_speed=1;*/
+	hlaser_dmg="constant";
+	hlaser_constant_dmg=2;
+	hlaser_startR_dmg=1;
+	hlaser_endR_dmg=3;
+	hlaser_dmgintrv="constant";
+	hlaser_constant_dmgintrv=1;
+	hlaser_startR_dmgintrv=0.5;
+	hlaser_endR_dmgintrv=3;
+	/*hlaser_sizeS_dmg=1;
+	hlaser_sizeM_dmg=1;
+	hlaser_sizeB_dmg=2;*/
+	/*hlaser_points="random"
+	hlaser_constant_points=13;
+	hlaser_startR_points=11;
+	hlaser_endR_points=15;
+	hlaser_sizeS_points=10;
+	hlaser_sizeM_points=13;
+	hlaser_sizeB_points=15;*/
+	/*hlaser_size="constant";
+	hlaser_constant_size=1;
+	hlaser_startR_size=0.5;
+	hlaser_endR_size=1.6;*/
+	
+	hlaser_dur="constant";
+	hlaser_constant_dur=2;
+	hlaser_startR_dur=1;
+	hlaser_endR_dur=4;
+	hlaser_alarm="constant";
+	hlaser_constant_alarm=1;
+	hlaser_startR_alarm=0.4;
+	hlaser_endR_alarm=2;
+	
+	hlaser_charge="constant";
+	hlaser_constant_charge=1;
+	hlaser_startR_charge=1;
+	hlaser_endR_charge=3;
+	
+	
+	hlaser_dpwrup=true;
+	hlaser_denemy=true;
+	//hlaserg_gcdestr=true;
+	#endregion
+
+	#region//Space Leech
+	spleech_armor="constant";
+	spleech_constant_armor=17;
+	spleech_startR_armor=15;
+	spleech_endR_armor=21;
+	spleech_sizeS_armor=16;
+	spleech_sizeM_armor=21;
+	spleech_sizeB_armor=25;
+	spleech_speed="constant";
+	spleech_constant_speed=3.5;
+	spleech_startR_speed=3;
+	spleech_endR_speed=5;
+	spleech_sizeS_speed=5;
+	spleech_sizeM_speed=3;
+	spleech_sizeB_speed=1.5;
+	spleech_dmg="constant";
+	spleech_constant_dmg=0.5;
+	spleech_startR_dmg=0.5;
+	spleech_endR_dmg=1.5;
+	spleech_sizeS_dmg=0.5;
+	spleech_sizeM_dmg=1;
+	spleech_sizeB_dmg=1.5;
+	spleech_dmgintrv="constant";
+	spleech_constant_dmgintrv=0.8;
+	spleech_startR_dmgintrv=0.5;
+	spleech_endR_dmgintrv=1;
+	spleech_sizeS_dmgintrv=0.2;
+	spleech_sizeM_dmgintrv=0.6;
+	spleech_sizeB_dmgintrv=1.2;
+	
+	spleech_points="random"
+	spleech_constant_points=24;
+	spleech_startR_points=18;
+	spleech_endR_points=28;
+	spleech_sizeS_points=16;
+	spleech_sizeM_points=21;
+	spleech_sizeB_points=27;
+	spleech_size="constant";
+	spleech_constant_size=1;
+	spleech_startR_size=0.5;
+	spleech_endR_size=1.6;
+	
+	spleech_dist="constant";
+	spleech_constant_dist=25;
+	spleech_startR_dist=15;
+	spleech_endR_dist=30;
+	spleech_sizeS_dist=10;
+	spleech_sizeM_dist=20;
+	spleech_sizeB_dist=30;
+	spleech_shake="constant";
+	spleech_constant_shake=1;
+	spleech_startR_shake=0.5;
+	spleech_endR_shake=3;
+	spleech_sizeS_shake=1;
+	spleech_sizeM_shake=1;
+	spleech_sizeB_shake=2;
+	#endregion
+#endregion
+	
+#region//Waves
+	default_wave="comets";
+	waves_frequency=50;
+	
+	spleech_frequency="random";
+	spleech_frequency_constant=20;
+	spleech_frequency_startR=9;
+	spleech_frequency_endR=40;
+	spleech_place="random";
+	spleech_place_constant=112;
+	spleech_place_startR=16;
+	spleech_place_endR=208;
+	spleech_wave_chance=0;
+	
+	hlaser_frequency="disabled";
+	hlaser_frequency_constant=20;
+	hlaser_frequency_startR=9;
+	hlaser_frequency_endR=40;
+	hlaser_place="ship";
+	hlaser_place_constant=112;
+	hlaser_place_startR=16;
+	hlaser_place_endR=208;
+	hlaser_wave_chance=.08;
+#endregion

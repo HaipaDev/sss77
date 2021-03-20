@@ -1,0 +1,111 @@
+/// @description Set to Maximum
+with(obj_custommode_cntrl){
+var par=obj_smodeParent;
+#region//Comet
+	#region//Base
+	if(room==rm_editcomet_armorCM){
+		if(comet_armor=="constant")comet_constant_armor=par.max_hp;
+	}
+	if(room==rm_editcomet_speedCM){
+		if(comet_speed=="constant")comet_constant_speed=par.max_speed;
+	}
+	if(room==rm_editcomet_dmgCM){
+		if(comet_dmg=="constant")comet_constant_dmg=par.max_dmg;
+	}
+	#endregion
+	#region//Appearance
+	if(room==rm_editcomet_sizeCM){
+		if(comet_size=="constant")comet_constant_size=par.max_size;
+	}
+	#endregion
+#endregion
+#region//Bat
+	#region//Base
+	if(room==rm_editbat_armorCM){
+		if(bat_armor=="constant")bat_constant_armor=par.max_hp;
+	}
+	if(room==rm_editbat_speedCM){
+		if(bat_speed=="constant")bat_constant_speed=par.max_speed;
+	}
+	if(room==rm_editbat_dmgCM){
+		if(bat_dmg=="constant")bat_constant_dmg=par.max_dmg;
+	}
+	#endregion
+	#region//Appearance
+	if(room==rm_editbat_sizeCM){
+		if(bat_size=="constant")bat_constant_size=par.max_size;
+	}
+	#endregion
+	#region//Bullet
+	if(room==rm_editbat_bt_freqCM){
+		if(bat_bt_freq=="constant")bat_bt_constant_freq=par.max_freq;
+	}
+	if(room==rm_editbat_bt_speedCM){
+		if(bat_bt_speed=="constant")bat_bt_constant_speed=par.max_speed;
+	}
+	if(room==rm_editbat_bt_dmgCM){
+		if(bat_bt_dmg=="constant")bat_bt_constant_dmg=par.max_dmg;
+	}
+	if(room==rm_editbat_bt_dmgCM){
+		if(bat_bt_dmg=="constant")bat_bt_constant_dmg=par.max_dmg;
+	}
+	if(room==rm_editbat_bt_sizeCM){
+		if(bat_bt_size=="constant")bat_bt_constant_size=par.max_size;
+	}
+	#endregion
+#endregion
+#region//Enemy Ship1
+	#region//Base
+	if(room==rm_edit_enShip1_armorCM){
+		if(en_ship1_armor=="constant")en_ship1_constant_armor=par.max_hp;
+	}
+	/*if(room==rm_edit_enShip1_speedCM){
+		if(en_ship1_speed=="constant")en_ship1_constant_speed=par.max_speed;
+	}
+	if(room==rm_edit_enShip1_dmgCM){
+		if(en_ship1_dmg=="constant")en_ship1_constant_dmg=par.max_dmg;
+	}*/
+	#endregion
+	#region//Appearance
+	if(room==rm_edit_enShip1_sizeCM){
+		if(en_ship1_size=="constant")en_ship1_constant_size=par.max_size;
+	}
+	#endregion
+	#region//Bullet
+	if(room==rm_edit_enShip1_bt_freqCM){
+		if(en_ship1_bt_freq=="constant")en_ship1_bt_constant_freq=par.max_freq;
+	}
+	if(room==rm_edit_enShip1_bt_speedCM){
+		if(en_ship1_bt_speed=="constant")en_ship1_bt_constant_speed=par.max_speed;
+	}
+	if(room==rm_edit_enShip1_bt_dmgCM){
+		if(en_ship1_bt_dmg=="constant")en_ship1_bt_constant_dmg=par.max_dmg;
+	}
+	if(room==rm_edit_enShip1_bt_dmgCM){
+		if(en_ship1_bt_dmg=="constant")en_ship1_bt_constant_dmg=par.max_dmg;
+	}
+	if(room==rm_edit_enShip1_bt_sizeCM){
+		if(en_ship1_bt_size=="constant")en_ship1_bt_constant_size=par.max_size;
+	}
+	#endregion
+#endregion
+#region//HLaser
+	#region//Base
+	if(room==rm_edit_HLaser_dmgCM){
+		if(hlaser_dmg=="constant")hlaser_constant_dmg=par.max_dmg;
+	}
+	if(room==rm_edit_HLaser_dmgintrvCM){
+		if(hlaser_dmgintrv=="constant")hlaser_constant_dmgintrv=par.max_freq;
+	}
+	if(room==rm_edit_HLaser_alarmCM){
+		if(hlaser_alarm=="constant")hlaser_constant_alarm=par.max_freq;
+	}
+	if(room==rm_edit_HLaser_durCM){
+		if(hlaser_dur=="constant")hlaser_constant_dur=par.max_freq;
+	}
+	if(room==rm_edit_HLaser_chargeCM){
+		if(hlaser_charge=="constant")hlaser_constant_charge=par.max_freq;
+	}
+	#endregion
+#endregion
+}

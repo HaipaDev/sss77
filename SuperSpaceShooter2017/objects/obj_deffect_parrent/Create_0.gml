@@ -1,0 +1,20 @@
+/// @description Properties
+hover=false;
+color=c_gray;
+owned=false;
+star_amount=0;
+type="default";
+preunlocked=false;
+eq=false;
+special=false;
+locked_text="Locked";
+sprcolor=c_white;
+rarity_colors();
+image_xscale=0.28;image_yscale=image_xscale;
+if(room_is_lockbox()){
+	image_xscale=1.5;
+	image_yscale=image_xscale;
+	depth=-1001;
+}
+skin_type3=-1;
+alarm[0]=room_speed/12;

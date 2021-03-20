@@ -1,0 +1,20 @@
+/// @description Draw self
+if(room!=rm_lvl_rewards){
+draw_sprite_ext(sprite_index,0,x,y,1,1,0,c_gray,image_alpha);
+if(global.hud_visibility>=.5)draw_sprite_ext(sprite_index,0,x,y,xscale,image_yscale,0,merge_color(color,c_white,.4),image_alpha);
+if(global.hud_visibility<.5)draw_sprite_ext(sprite_index,0,x,y,xscale,image_yscale,0,merge_color(color,c_gray,.4),image_alpha);
+draw_set_halign(fa_right);
+draw_set_font(fnt_starjedi);
+draw_text_color(x-1,y-3,global.lvl,color,color,color,color,image_alpha);
+draw_set_font(fnt_score);
+draw_set_halign(fa_center);
+}else{
+draw_sprite_ext(sprite_index,0,x,y,1,1,0,c_gray,image_alpha);
+if(global.hud_visibility>=.5)draw_sprite_ext(sprite_index,0,x,y,xscale,image_yscale,0,merge_color(color,c_white,.4),image_alpha);
+if(global.hud_visibility<.5)draw_sprite_ext(sprite_index,0,x,y,xscale,image_yscale,0,merge_color(color,c_gray,.4),image_alpha);
+draw_set_halign(fa_left);
+draw_set_font(fnt_starjedi);
+draw_text_color(x+1.5,y-4,global.lvl,color,color,color,color,image_alpha);
+draw_set_font(fnt_score);
+draw_set_halign(fa_center);
+}

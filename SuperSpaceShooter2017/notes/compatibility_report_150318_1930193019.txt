@@ -1,0 +1,1058 @@
+Converting GML script: ${project_dir}\scripts\add_screenshake\add_screenshake.gml
+Converted description /// @description  add_screenshake(amount, duration)/// @function  add_screenshake
+/// @param amount
+/// @param  duration
+
+Converting GML script: ${project_dir}\scripts\create_part_type_sprite\create_part_type_sprite.gml
+Converted description /// @description  create_part_type_sprite(sprite, blend, min_life, max_life)/// @function  create_part_type_sprite
+/// @param sprite
+/// @param  blend
+/// @param  min_life
+/// @param  max_life
+
+Converting GML script: ${project_dir}\scripts\create_explosion\create_explosion.gml
+Converted description /// @description  create_explosion(x, y)/// @function  create_explosion
+/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\create_explosion_big\create_explosion_big.gml
+Converted description /// @description  create_explosion_big(x, y)/// @function  create_explosion_big
+/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\save_game\save_game.gml
+Converted description /// @description  save_game
+
+Converting GML script: ${project_dir}\scripts\load_game\load_game.gml
+Converted description /// @description  load_game
+
+Converting GML script: ${project_dir}\scripts\save_userdata\save_userdata.gml
+Converted description /// @description  save_userdata
+
+Converting GML script: ${project_dir}\scripts\load_userdata\load_userdata.gml
+Converted description /// @description  load_userdata
+
+Converting GML script: ${project_dir}\scripts\randomize_song\randomize_song.gml
+Converted description /// @description  randomize_song()/// @function  randomize_song
+
+Converting GML script: ${project_dir}\scripts\choose_wave\choose_wave.gml
+Converted description /// @description  choose_wave
+
+Converting GML script: ${project_dir}\scripts\gj_result_status\gj_result_status.gml
+Converted string - line 43: '\"' -> "\\\""
+Converted string - line 45: ':"' -> ":\""
+Converted string - line 46: ':"' -> ":\""
+Converted string - line 47: '"' -> "\""
+Converted string - line 48: '"' -> "\""
+Converted string - line 64: ':"' -> ":\""
+Converted string - line 65: ':"' -> ":\""
+Converted string - line 66: '"' -> "\""
+Converted string - line 67: '"' -> "\""
+Converted string - line 81: ':"' -> ":\""
+Converted string - line 82: ':"' -> ":\""
+Converted string - line 83: '"' -> "\""
+Converted string - line 84: '"' -> "\""
+Converted string - line 116: ':"' -> ":\""
+Converted string - line 117: ':"' -> ":\""
+Converted string - line 118: '"' -> "\""
+Converted string - line 119: '"' -> "\""
+
+Converting GML script: ${project_dir}\scripts\player_idle_state\player_idle_state.gml
+Converted description /// @description  player_idle_state
+
+Converting GML script: ${project_dir}\scripts\player_move\player_move.gml
+Converted description /// @description  player_move
+
+Converting GML script: ${project_dir}\scripts\player_shoot_state\player_shoot_state.gml
+Converted description /// @description  player_shoot_state
+
+Converting GML script: ${project_dir}\scripts\player_pshoot_state\player_pshoot_state.gml
+Converted description /// @description  player_pshoot_state
+
+Converting GML script: ${project_dir}\scripts\player_minigun_state\player_minigun_state.gml
+Converted description /// @description  player_minigun_state
+
+Converting GML script: ${project_dir}\scripts\player_shuriken_state\player_shuriken_state.gml
+Converted description /// @description  player_shuriken_state
+
+Converting GML script: ${project_dir}\scripts\enemy_follow_player\enemy_follow_player.gml
+Converted description /// @description  enemy_follow_player
+
+Converting GML script: ${project_dir}\scripts\enemy_shoot\enemy_shoot.gml
+Converted description /// @description  enemy_shoot(x, y, x2)/// @function  enemy_shoot
+/// @param x
+/// @param  y
+/// @param  x2
+
+Converting GML script: ${project_dir}\scripts\enemy_dodge_laser\enemy_dodge_laser.gml
+Converted description /// @description  enemy_dodge_laser
+
+Converting GML script: ${project_dir}\scripts\textbox_text_selected_get\textbox_text_selected_get.gml
+Converted description /// @description textbox_text_selected_get(textbox)/// @function textbox_text_selected_get
+/// @param textbox
+
+Converting GML script: ${project_dir}\scripts\textbox_text_selected_remove\textbox_text_selected_remove.gml
+Converted description /// @description textbox_text_selected_remove(textbox)/// @function textbox_text_selected_remove
+/// @param textbox
+
+Converting GML script: ${project_dir}\scripts\textbox_text_selected_set\textbox_text_selected_set.gml
+Converted description /// @description textbox_text_selected_set(textbox, selectedStart, cursorPosition)/// @function textbox_text_selected_set
+/// @param textbox
+/// @param  selectedStart
+/// @param  cursorPosition
+
+Converting GML script: ${project_dir}\scripts\textbox_text_insert\textbox_text_insert.gml
+Converted description /// @description textbox_text_insert(textbox, text)/// @function textbox_text_insert
+/// @param textbox
+/// @param  text
+
+Converting GML script: ${project_dir}\scripts\textbox_get_cursor_at\textbox_get_cursor_at.gml
+Converted description /// @description textbox_get_cursor_at(textbox, xCoordinate)/// @function textbox_get_cursor_at
+/// @param textbox
+/// @param  xCoordinate
+
+Converting GML script: ${project_dir}\scripts\string_get_highest_index\string_get_highest_index.gml
+Converted description /// @description string_get_highest_index(string, find, highest)/// @function string_get_highest_index
+/// @param string
+/// @param  find
+/// @param  highest
+
+Converting GML script: ${project_dir}\scripts\string_get_lowest_index\string_get_lowest_index.gml
+Converted description /// @description string_get_lowest_index(string, find, lowest)/// @function string_get_lowest_index
+/// @param string
+/// @param  find
+/// @param  lowest
+
+Converting GML script: ${project_dir}\scripts\gp_create\gp_create.gml
+Converted description /// @description gp_create(debug, throw errors)/// @function gp_create
+/// @param debug
+/// @param  throw errors
+
+Converting GML script: ${project_dir}\scripts\gp_get_connected_count\gp_get_connected_count.gml
+Converted description /// @description gp_get_connected_count()/// @function gp_get_connected_count
+
+Converting GML script: ${project_dir}\scripts\gp_set_mouse_control\gp_set_mouse_control.gml
+Converted description /// @description gp_set_mouse_control(gamepad, boolean)/// @function gp_set_mouse_control
+/// @param gamepad
+/// @param  boolean
+
+Converting GML script: ${project_dir}\scripts\gp_set_left_click\gp_set_left_click.gml
+Converted description /// @description gp_set_left_click(gamepad, [string] button)/// @function gp_set_left_click
+/// @param gamepad
+/// @param  [string] button
+
+Converting GML script: ${project_dir}\scripts\gp_controllerify\gp_controllerify.gml
+Converted description /// @description gp_controllerify(gp description, debug)/// @function gp_controllerify
+/// @param gp description
+/// @param  debug
+
+Converting GML script: ${project_dir}\scripts\gp_first_connected\gp_first_connected.gml
+Converted description /// @description gp_first_connected(debug, throw errors)/// @function gp_first_connected
+/// @param debug
+/// @param  throw errors
+
+Converting GML script: ${project_dir}\scripts\gp_settings\gp_settings.gml
+Converted description /// @description gp_settings(debug, throw errors)/// @function gp_settings
+/// @param debug
+/// @param  throw errors
+
+Converting GML script: ${project_dir}\scripts\gp_update_settings\gp_update_settings.gml
+Converted description /// @description gp_update_settings(gamepad settings.gamepad, debug)/// @function gp_update_settings
+/// @param gamepad settings.gamepad
+/// @param  debug
+
+Converting GML script: ${project_dir}\scripts\gp_string_to_key\gp_string_to_key.gml
+Converted description /// @description gp_string_to_key(string)/// @function gp_string_to_key
+/// @param string
+
+Converting GML script: ${project_dir}\scripts\gp_key_to_string\gp_key_to_string.gml
+Converted description /// @description gp_key_to_string(key, [optional] gamepad)/// @function gp_key_to_string
+/// @param key
+/// @param  [optional] gamepad
+
+Converting GML script: ${project_dir}\scripts\gp_mouse_control\gp_mouse_control.gml
+Converted description /// @description gp_mouse_control(gamepad)/// @function gp_mouse_control
+/// @param gamepad
+
+Converting GML script: ${project_dir}\scripts\gp_move_cursor\gp_move_cursor.gml
+Converted description /// @description gp_move_cursor([Optional] gamepad, [Optional] deadzone, [Optional] debug, [Optional] throw errors)/// @function gp_move_cursor
+/// @param [Optional] gamepad
+/// @param  [Optional] deadzone
+/// @param  [Optional] debug
+/// @param  [Optional] throw errors
+
+Converting GML script: ${project_dir}\scripts\gp_emulate_click\gp_emulate_click.gml
+Converted description /// @description gp_emulate_click(event)/// @function gp_emulate_click
+/// @param event
+
+Converting GML script: ${project_dir}\scripts\gp_emulate_glob_click\gp_emulate_glob_click.gml
+Converted description /// @description gp_emulate_glob_click()/// @function gp_emulate_glob_click
+
+!!! Font fnt_score uses a font (Calibri Light) not installed on this system - Font has NOT been regenerated
+!!! Font fnt_large uses a font (Calibri Light) not installed on this system - Font has NOT been regenerated
+Converting GML script: ${project_dir}\objects\oGamepad\Create_0.gml
+Converted description /// @description Create gamepad READ THE DOCUMENTATION
+
+Converting GML script: ${project_dir}\objects\oGamepad\Step_0.gml
+Converted description /// @description Mouse control
+
+Converting GML script: ${project_dir}\objects\obj_game\Create_0.gml
+Converted description /// @description  Initialize game object
+
+Converting GML script: ${project_dir}\objects\obj_game\Alarm_0.gml
+Converted description /// @description  Autologin
+
+Converting GML script: ${project_dir}\objects\obj_game\Keyboard_112.gml
+Converted description /// @description  Debug Mode
+
+Converting GML script: ${project_dir}\objects\obj_game\Other_4.gml
+Converted description /// @description  Comets on start & randomize
+
+Converting GML script: ${project_dir}\objects\obj_game\Other_3.gml
+Converted description /// @description  Destroy particle system
+
+Converting GML script: ${project_dir}\objects\obj_game\Other_2.gml
+Converted description /// @description  Load audio groups & game
+
+Converting GML script: ${project_dir}\objects\obj_game\Draw_0.gml
+Converted description /// @description  Menu text
+
+Converting GML script: ${project_dir}\objects\obj_spawner\Create_0.gml
+Converted description /// @description  Initialize spawner
+
+Converting GML script: ${project_dir}\objects\obj_spawner\Alarm_1.gml
+Converted description /// @description  Spawn powerups
+
+Converting GML script: ${project_dir}\objects\obj_spawner\Alarm_0.gml
+Converted description /// @description  Spawn enemies
+
+Converting GML script: ${project_dir}\objects\obj_screen_flash\Draw_0.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description  Draw screen flash
+
+Converting GML script: ${project_dir}\objects\obj_view_controller\Create_0.gml
+Converted description /// @description  Initialize view controller
+
+Converting GML script: ${project_dir}\objects\obj_view_controller\Alarm_0.gml
+Converted description /// @description  Set screen shake to 0
+
+Converting GML script: ${project_dir}\objects\obj_view_controller\Step_0.gml
+Converted builtin - line 2: view_xview[0] = random(screenshake -> __view_set( e__VW.XView, 0, random(screenshake )
+Converted builtin - line 3: view_yview[0] = random(screenshake -> __view_set( e__VW.YView, 0, random(screenshake )
+Converted description /// @description  Update view position
+
+Converting GML script: ${project_dir}\objects\obj_pause\Create_0.gml
+Converted builtin - line 21: background_vspeed[0] = 0 -> __background_set( e__BG.VSpeed, 0, 0 )
+Converted builtin - line 22: background_vspeed[1] = 0 -> __background_set( e__BG.VSpeed, 1, 0 )
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 17: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 17: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Deactivate when created
+
+Converting GML script: ${project_dir}\objects\obj_pause\Step_0.gml
+Converted builtin - line 11: background_vspeed[0] = 1 -> __background_set( e__BG.VSpeed, 0, 1 )
+Converted builtin - line 12: background_vspeed[1] = 2 -> __background_set( e__BG.VSpeed, 1, 2 )
+Converted description /// @description  Activate back
+
+Converting GML script: ${project_dir}\objects\obj_pause\Keyboard_0.gml
+Converted description /// @description  Unpause with Gamepad
+
+Converting GML script: ${project_dir}\objects\obj_pause\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description  Draw surface
+
+Converting GML script: ${project_dir}\objects\obj_pause\KeyPress_27.gml
+Converted description /// @description  Activate back
+
+Converting GML script: ${project_dir}\objects\obj_pause_controller\Keyboard_0.gml
+Converted description /// @description  Pause with Gamepad
+
+Converting GML script: ${project_dir}\objects\obj_pause_controller\KeyPress_27.gml
+Converted description /// @description  Create pause object
+
+Converting GML script: ${project_dir}\objects\obj_sound_controller\Step_0.gml
+Converted description /// @description  Always set sounds gain to that of global.sound and music gain to global.music
+
+Converting GML script: ${project_dir}\objects\obj_sound_controller\Other_2.gml
+Converted description /// @description  Set sounds gain
+
+Converting GML script: ${project_dir}\objects\obj_waves\Create_0.gml
+Converted description /// @description  Vars
+
+Converting GML script: ${project_dir}\objects\obj_waves\Alarm_5.gml
+Converted description /// @description  Ship_Flyby Wave
+
+Converting GML script: ${project_dir}\objects\obj_waves\Alarm_4.gml
+Converted description /// @description  Bats_Flyby Wave
+
+Converting GML script: ${project_dir}\objects\obj_waves\Alarm_3.gml
+Converted description /// @description  Comets_Storm Wave
+
+Converting GML script: ${project_dir}\objects\obj_waves\Alarm_2.gml
+Converted description /// @description  Comets_Flyby Wave
+
+Converting GML script: ${project_dir}\objects\obj_waves\Alarm_1.gml
+Converted description /// @description  Bats_V Wave
+
+Converting GML script: ${project_dir}\objects\obj_waves\Alarm_0.gml
+Converted description /// @description  Clear Wave Text
+
+Converting GML script: ${project_dir}\objects\obj_waves\Step_0.gml
+Converted description /// @description  Check waves
+
+Converting GML script: ${project_dir}\objects\obj_waves\Draw_0.gml
+Converted description /// @description  Wave text
+
+Converting GML script: ${project_dir}\objects\obj_ev_score\Create_0.gml
+Converted description /// @description  Initialize event score object
+
+Converting GML script: ${project_dir}\objects\obj_ev_score\Step_0.gml
+Converted description /// @description  Check score & choose wave
+
+Converting GML script: ${project_dir}\objects\obj_GJcontroller\Create_0.gml
+Converted description /// @description  Init system
+
+Converting GML script: ${project_dir}\objects\obj_GJcontroller\Alarm_0.gml
+Converted description /// @description  Ping session
+
+Converting GML script: ${project_dir}\objects\obj_GJcontroller\Step_0.gml
+Converted description /// @description  Send trophy info if needed
+
+Converting GML script: ${project_dir}\objects\obj_GJcontroller\Other_63.gml
+Converted description /// @description  Handle all dialogs in the game.
+
+Converting GML script: ${project_dir}\objects\obj_GJcontroller\Other_4.gml
+Converted description /// @description  Old Autologin
+
+Converting GML script: ${project_dir}\objects\obj_button_parrent\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_button_parrent\Mouse_11.gml
+Converted description /// @description  Darken button
+
+Converting GML script: ${project_dir}\objects\obj_button_parrent\Mouse_10.gml
+Converted description /// @description  Lighten button
+
+Converting GML script: ${project_dir}\objects\obj_button_parrent\Draw_0.gml
+Converted description /// @description  Draw button
+
+Converting GML script: ${project_dir}\objects\obj_start_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_start_button\Mouse_4.gml
+Converted description /// @description  Start game
+
+Converting GML script: ${project_dir}\objects\obj_reset_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_reset_button\Mouse_4.gml
+Converted description /// @description  Verificate Reset Save
+
+Converting GML script: ${project_dir}\objects\obj_yreset_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_yreset_button\Mouse_7.gml
+Converted description /// @description  Reset Save
+
+Converting GML script: ${project_dir}\objects\obj_nreset_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_nreset_button\Mouse_7.gml
+Converted description /// @description  Back to menu
+
+Converting GML script: ${project_dir}\objects\obj_reset_text\Draw_0.gml
+Converted description /// @description  Draw text
+
+Converting GML script: ${project_dir}\objects\obj_resetalldata_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_resetalldata_button\Mouse_4.gml
+Converted description /// @description  Verificate Reset Alldata
+
+Converting GML script: ${project_dir}\objects\obj_yresetall_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_yresetall_button\Mouse_7.gml
+Converted description /// @description  Reset Save
+
+Converting GML script: ${project_dir}\objects\obj_nresetall_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_nresetall_button\Mouse_7.gml
+Converted description /// @description  Back to options
+
+Converting GML script: ${project_dir}\objects\obj_resetall_text\Draw_0.gml
+Converted description /// @description  Draw text
+
+Converting GML script: ${project_dir}\objects\obj_uploadscore\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_uploadscore\Mouse_7.gml
+Converted description /// @description  Upload score
+
+Converting GML script: ${project_dir}\objects\obj_backtomenu_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_backtomenu_button\Mouse_7.gml
+Converted description /// @description  Back to menu
+
+Converting GML script: ${project_dir}\objects\obj_quit_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_quit_button\Mouse_4.gml
+Converted description /// @description  Quit game
+
+Converting GML script: ${project_dir}\objects\obj_menu_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_menu_button\Mouse_4.gml
+Converted description /// @description  Quit game
+
+Converting GML script: ${project_dir}\objects\obj_achvmnts_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_achvmnts_button\Mouse_4.gml
+Converted description /// @description  Go to achievements room
+
+Converting GML script: ${project_dir}\objects\obj_scoreboard_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_scoreboard_button\Mouse_4.gml
+Converted description /// @description  Go to scoreboard room
+
+Converting GML script: ${project_dir}\objects\obj_options_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_options_button\Mouse_4.gml
+Converted description /// @description  Open options
+
+Converting GML script: ${project_dir}\objects\obj_restart_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_restart_button\Keyboard_32.gml
+Converted description /// @description  Restart game
+
+Converting GML script: ${project_dir}\objects\obj_restart_button\Keyboard_0.gml
+Converted description /// @description  Restart game with Gamepad
+
+Converting GML script: ${project_dir}\objects\obj_restart_button\Mouse_4.gml
+Converted description /// @description  Restart game
+
+Converting GML script: ${project_dir}\objects\obj_resume_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_resume_button\Mouse_4.gml
+Converted description /// @description  Resume game
+
+Converting GML script: ${project_dir}\objects\obj_song_rndm_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_song_rndm_button\Mouse_4.gml
+Converted description /// @description  Randomize Song
+
+Converting GML script: ${project_dir}\objects\obj_mute_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_mute_button\Mouse_4.gml
+Converted description /// @description  Stop Music
+
+Converting GML script: ${project_dir}\objects\obj_music1\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_music1\Mouse_11.gml
+Converted description /// @description  Darken button
+
+Converting GML script: ${project_dir}\objects\obj_music1\Mouse_10.gml
+Converted description /// @description  Lighten button
+
+Converting GML script: ${project_dir}\objects\obj_music1\Mouse_4.gml
+Converted description /// @description  Change song
+
+Converting GML script: ${project_dir}\objects\obj_music1\Draw_0.gml
+Converted description /// @description  Draw button
+
+Converting GML script: ${project_dir}\objects\obj_music2\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_music2\Mouse_11.gml
+Converted description /// @description  Darken button
+
+Converting GML script: ${project_dir}\objects\obj_music2\Mouse_10.gml
+Converted description /// @description  Lighten button
+
+Converting GML script: ${project_dir}\objects\obj_music2\Mouse_4.gml
+Converted description /// @description  Change song
+
+Converting GML script: ${project_dir}\objects\obj_music2\Draw_0.gml
+Converted description /// @description  Draw button
+
+Converting GML script: ${project_dir}\objects\obj_music3\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_music3\Mouse_11.gml
+Converted description /// @description  Darken button
+
+Converting GML script: ${project_dir}\objects\obj_music3\Mouse_10.gml
+Converted description /// @description  Lighten button
+
+Converting GML script: ${project_dir}\objects\obj_music3\Mouse_4.gml
+Converted description /// @description  Change song
+
+Converting GML script: ${project_dir}\objects\obj_music3\Draw_0.gml
+Converted description /// @description  Draw button
+
+Converting GML script: ${project_dir}\objects\obj_music1_static\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_music1_static\Mouse_11.gml
+Converted description /// @description  Darken button
+
+Converting GML script: ${project_dir}\objects\obj_music1_static\Mouse_10.gml
+Converted description /// @description  Lighten button
+
+Converting GML script: ${project_dir}\objects\obj_music1_static\Mouse_4.gml
+Converted description /// @description  Change song
+
+Converting GML script: ${project_dir}\objects\obj_music1_static\Draw_0.gml
+Converted description /// @description  Draw button
+
+Converting GML script: ${project_dir}\objects\obj_music2_static\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_music2_static\Mouse_11.gml
+Converted description /// @description  Darken button
+
+Converting GML script: ${project_dir}\objects\obj_music2_static\Mouse_10.gml
+Converted description /// @description  Lighten button
+
+Converting GML script: ${project_dir}\objects\obj_music2_static\Mouse_4.gml
+Converted description /// @description  Change song
+
+Converting GML script: ${project_dir}\objects\obj_music2_static\Draw_0.gml
+Converted description /// @description  Draw button
+
+Converting GML script: ${project_dir}\objects\obj_music3_static\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_music3_static\Mouse_11.gml
+Converted description /// @description  Darken button
+
+Converting GML script: ${project_dir}\objects\obj_music3_static\Mouse_10.gml
+Converted description /// @description  Lighten button
+
+Converting GML script: ${project_dir}\objects\obj_music3_static\Mouse_4.gml
+Converted description /// @description  Change song
+
+Converting GML script: ${project_dir}\objects\obj_music3_static\Draw_0.gml
+Converted description /// @description  Draw button
+
+Converting GML script: ${project_dir}\objects\opj_mouse_cntrl_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\opj_mouse_cntrl_button\Mouse_4.gml
+Converted description /// @description  Change controlls
+
+Converting GML script: ${project_dir}\objects\opj_mouse_cntrl_button\Draw_0.gml
+Converted description /// @description  Draw text
+
+Converting GML script: ${project_dir}\objects\obj_autoshoot_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_autoshoot_button\Mouse_4.gml
+Converted description /// @description  Change shooting mode
+
+Converting GML script: ${project_dir}\objects\obj_autoshoot_button\Draw_0.gml
+Converted description /// @description  Draw text
+
+Converting GML script: ${project_dir}\objects\obj_manualshoot_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_manualshoot_button\Mouse_4.gml
+Converted description /// @description  Change shooting mode
+
+Converting GML script: ${project_dir}\objects\obj_keyboard_cntrl_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_keyboard_cntrl_button\Mouse_4.gml
+Converted description /// @description  Change controlls
+
+Converting GML script: ${project_dir}\objects\obj_nextpg_achievs\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_nextpg_achievs\Mouse_11.gml
+Converted description /// @description  Darken button
+
+Converting GML script: ${project_dir}\objects\obj_nextpg_achievs\Mouse_10.gml
+Converted description /// @description  Lighten button
+
+Converting GML script: ${project_dir}\objects\obj_nextpg_achievs\Mouse_4.gml
+Converted description /// @description  Change page
+
+Converting GML script: ${project_dir}\objects\obj_nextpg_achievs\Draw_0.gml
+Converted description /// @description  Draw button
+
+Converting GML script: ${project_dir}\objects\obj_prevpg_achievs\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_prevpg_achievs\Mouse_11.gml
+Converted description /// @description  Darken button
+
+Converting GML script: ${project_dir}\objects\obj_prevpg_achievs\Mouse_10.gml
+Converted description /// @description  Lighten button
+
+Converting GML script: ${project_dir}\objects\obj_prevpg_achievs\Mouse_4.gml
+Converted description /// @description  Change page
+
+Converting GML script: ${project_dir}\objects\obj_prevpg_achievs\Draw_0.gml
+Converted description /// @description  Draw button
+
+Converting GML script: ${project_dir}\objects\obj_scoreboardPage_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_scoreboardPage_button\Mouse_11.gml
+Converted description /// @description  Darken button
+
+Converting GML script: ${project_dir}\objects\obj_scoreboardPage_button\Mouse_10.gml
+Converted description /// @description  Lighten button
+
+Converting GML script: ${project_dir}\objects\obj_scoreboardPage_button\Mouse_4.gml
+Converted description /// @description  Open scoreboard page
+Converted string - line 2: 'https://gamejolt.com/games/sss17/274659/scores/279210/best' -> "https://gamejolt.com/games/sss17/274659/scores/279210/best"
+
+Converting GML script: ${project_dir}\objects\obj_scoreboardPage_button\Draw_0.gml
+Converted description /// @description  Draw button
+
+Converting GML script: ${project_dir}\objects\obj_achievPage_button\Create_0.gml
+Converted description /// @description  Initialize button
+
+Converting GML script: ${project_dir}\objects\obj_achievPage_button\Mouse_11.gml
+Converted description /// @description  Darken button
+
+Converting GML script: ${project_dir}\objects\obj_achievPage_button\Mouse_10.gml
+Converted description /// @description  Lighten button
+
+Converting GML script: ${project_dir}\objects\obj_achievPage_button\Mouse_4.gml
+Converted description /// @description  Open achievement page
+Converted string - line 2: 'https://gamejolt.com/games/sss17/274659/trophies' -> "https://gamejolt.com/games/sss17/274659/trophies"
+
+Converting GML script: ${project_dir}\objects\obj_achievPage_button\Draw_0.gml
+Converted description /// @description  Draw button
+
+Converting GML script: ${project_dir}\objects\obj_armor\Create_0.gml
+Converted description /// @description  Initialize armor
+
+Converting GML script: ${project_dir}\objects\obj_armor\Step_0.gml
+Converted description /// @description  Control armor
+
+Converting GML script: ${project_dir}\objects\obj_armor\Draw_0.gml
+Converted description /// @description  Draw self
+
+Converting GML script: ${project_dir}\objects\obj_score\Draw_0.gml
+Converted description /// @description  Draw Score
+
+Converting GML script: ${project_dir}\objects\obj_highscore\Other_2.gml
+Converted description /// @description  Create game object
+
+Converting GML script: ${project_dir}\objects\obj_highscore\Draw_0.gml
+Converted description /// @description  Draw Highscore
+
+Converting GML script: ${project_dir}\objects\obj_Mbar\Draw_0.gml
+Converted description /// @description  Draw Text
+
+Converting GML script: ${project_dir}\objects\obj_Sslider\Draw_0.gml
+Converted description /// @description  Draw sprite
+
+Converting GML script: ${project_dir}\objects\obj_Sbar\Draw_0.gml
+Converted description /// @description  Draw Text
+
+Converting GML script: ${project_dir}\objects\obj_loadingbar\Step_0.gml
+Converted description /// @description  Get percentage of loading & Play musicc
+
+Converting GML script: ${project_dir}\objects\obj_loadingbar\Draw_0.gml
+Converted description /// @description  Draw Text
+
+Converting GML script: ${project_dir}\objects\obj_textbox_name\Step_1.gml
+Converted description /// @description  Calculate offset
+
+Converting GML script: ${project_dir}\objects\obj_textbox_name\Keyboard_1.gml
+Converted string - line 122: "\#" -> "\\#"
+
+Converting GML script: ${project_dir}\objects\obj_textbox_name\Other_10.gml
+Converted description /// @description Free the surface
+
+Converting GML script: ${project_dir}\objects\obj_textbox_name\KeyPress_13.gml
+Converted description /// @description  Put uname
+
+Converting GML script: ${project_dir}\objects\obj_textbox_token\Step_1.gml
+Converted description /// @description  Calculate offset
+
+Converting GML script: ${project_dir}\objects\obj_textbox_token\Keyboard_1.gml
+Converted string - line 122: "\#" -> "\\#"
+
+Converting GML script: ${project_dir}\objects\obj_textbox_token\Other_10.gml
+Converted description /// @description Free the surface
+
+Converting GML script: ${project_dir}\objects\obj_textbox_token\KeyPress_13.gml
+Converted description /// @description  Login
+
+Converting GML script: ${project_dir}\objects\obj_GJ_login\Create_0.gml
+Converted description /// @description  Properties
+
+Converting GML script: ${project_dir}\objects\obj_GJ_login\Step_0.gml
+Converted description /// @description  If logged, create logout object
+
+Converting GML script: ${project_dir}\objects\obj_GJ_login\Mouse_7.gml
+Converted description /// @description  Login
+
+Converting GML script: ${project_dir}\objects\obj_GJ_logout\Create_0.gml
+Converted description /// @description  Properties
+
+Converting GML script: ${project_dir}\objects\obj_GJ_logout\Mouse_7.gml
+Converted description /// @description  Logout
+
+Converting GML script: ${project_dir}\objects\obj_GJ_logout\Draw_0.gml
+Converted description /// @description  Draw login values
+
+Converting GML script: ${project_dir}\objects\obj_optionsroom_text\Draw_0.gml
+Converted description /// @description  Draw text
+
+Converting GML script: ${project_dir}\objects\obj_welcome_achievement\Create_0.gml
+Converted description /// @description  Properties
+
+Converting GML script: ${project_dir}\objects\obj_welcome_achievement\Draw_0.gml
+Converted description /// @description  Draw Text
+
+Converting GML script: ${project_dir}\objects\obj_private_achievement\Create_0.gml
+Converted description /// @description  Properties
+
+Converting GML script: ${project_dir}\objects\obj_private_achievement\Draw_0.gml
+Converted description /// @description  Draw Text
+
+Converting GML script: ${project_dir}\objects\obj_sergeant_achievement\Create_0.gml
+Converted description /// @description  Properties
+
+Converting GML script: ${project_dir}\objects\obj_sergeant_achievement\Draw_0.gml
+Converted description /// @description  Draw Text
+
+Converting GML script: ${project_dir}\objects\obj_spacedestroyer_achievement\Create_0.gml
+Converted description /// @description  Properties
+
+Converting GML script: ${project_dir}\objects\obj_spacedestroyer_achievement\Draw_0.gml
+Converted description /// @description  Draw Text
+
+Converting GML script: ${project_dir}\objects\obj_deathsfriend_achievement\Create_0.gml
+Converted description /// @description  Properties
+
+Converting GML script: ${project_dir}\objects\obj_deathsfriend_achievement\Draw_0.gml
+Converted description /// @description  Draw Text
+
+Converting GML script: ${project_dir}\objects\obj_noob_achievement\Create_0.gml
+Converted description /// @description  Properties
+
+Converting GML script: ${project_dir}\objects\obj_noob_achievement\Draw_0.gml
+Converted description /// @description  Draw Text
+
+Converting GML script: ${project_dir}\objects\obj_veteran_achievement\Create_0.gml
+Converted description /// @description  Properties
+
+Converting GML script: ${project_dir}\objects\obj_veteran_achievement\Draw_0.gml
+Converted description /// @description  Draw Text
+
+Converting GML script: ${project_dir}\objects\obj_gold_achievement\Create_0.gml
+Converted description /// @description  Properties
+
+Converting GML script: ${project_dir}\objects\obj_gold_achievement\Draw_0.gml
+Converted description /// @description  Draw Text
+
+Converting GML script: ${project_dir}\objects\obj_textpages_achievs\Draw_0.gml
+Converted description /// @description  Draw text
+
+Converting GML script: ${project_dir}\objects\obj_offlineachievs_text\Draw_0.gml
+Converted description /// @description  Draw text
+
+Converting GML script: ${project_dir}\objects\obj_goldachievement_cntrl\Step_0.gml
+Converted description /// @description  Get every stat
+
+Converting GML script: ${project_dir}\objects\obj_scoreboard1\Draw_0.gml
+Converted description /// @description  Draw scoreboard
+
+Converting GML script: ${project_dir}\objects\obj_scoreboard2\Draw_0.gml
+Converted description /// @description  Draw scoreboard
+
+Converting GML script: ${project_dir}\objects\obj_scoreboard3\Draw_0.gml
+Converted description /// @description  Draw scoreboard
+
+Converting GML script: ${project_dir}\objects\obj_scoreboard4\Draw_0.gml
+Converted description /// @description  Draw scoreboard
+
+Converting GML script: ${project_dir}\objects\obj_scoreboard5\Draw_0.gml
+Converted description /// @description  Draw scoreboard
+
+Converting GML script: ${project_dir}\objects\obj_scoreboard6\Draw_0.gml
+Converted description /// @description  Draw scoreboard
+
+Converting GML script: ${project_dir}\objects\obj_scoreboard7\Draw_0.gml
+Converted description /// @description  Draw scoreboard
+
+Converting GML script: ${project_dir}\objects\obj_scoreboard8\Draw_0.gml
+Converted description /// @description  Draw scoreboard
+
+Converting GML script: ${project_dir}\objects\obj_scoreboard9\Draw_0.gml
+Converted description /// @description  Draw scoreboard
+
+Converting GML script: ${project_dir}\objects\obj_scoreboard10\Draw_0.gml
+Converted description /// @description  Draw scoreboard
+
+Converting GML script: ${project_dir}\objects\obj_scoreboardYou\Create_0.gml
+Converted description /// @description  Get user highscore
+
+Converting GML script: ${project_dir}\objects\obj_scoreboardYou\Other_62.gml
+Converted description /// @description  Your Score
+
+Converting GML script: ${project_dir}\objects\obj_scoreboardYou\Draw_0.gml
+Converted description /// @description  Draw scoreboard
+
+Converting GML script: ${project_dir}\objects\obj_scoreboardYou_sort\Create_0.gml
+Converted description /// @description  Get user sort
+
+Converting GML script: ${project_dir}\objects\obj_scoreboardYou_sort\Other_62.gml
+Converted description /// @description  Your Sort
+
+Converting GML script: ${project_dir}\objects\obj_scoreboardYou_sort\Draw_0.gml
+Converted description /// @description  Draw scoreboard
+
+Converting GML script: ${project_dir}\objects\obj_scoreboard_text\Draw_0.gml
+Converted description /// @description  Draw text
+
+Converting GML script: ${project_dir}\objects\obj_top10scores\Create_0.gml
+Converted description /// @description  Get first 10 highscores
+
+Converting GML script: ${project_dir}\objects\obj_top10scores\Alarm_1.gml
+Converted description /// @description  Create obj_scoreboardYou_sort
+
+Converting GML script: ${project_dir}\objects\obj_top10scores\Alarm_0.gml
+Converted description /// @description  Create obj_scoreboardYou
+
+Converting GML script: ${project_dir}\objects\obj_top10scores\Other_62.gml
+Converted description /// @description  Top 10 highscores
+
+Converting GML script: ${project_dir}\objects\obj_top10scores\Other_4.gml
+Converted description /// @description  Reset alarm[0]and[1] when in menu
+
+Converting GML script: ${project_dir}\objects\obj_expl_part_creator\Create_0.gml
+Converted description /// @description  Initialize particle creator
+
+Converting GML script: ${project_dir}\objects\obj_expl_part_creator\Step_0.gml
+Converted description /// @description  Create particles & die
+
+Converting GML script: ${project_dir}\objects\obj_flare\Step_0.gml
+Converted description /// @description  Fade
+
+Converting GML script: ${project_dir}\objects\obj_flare\Draw_0.gml
+Converted description /// @description  Draw glow
+
+Converting GML script: ${project_dir}\objects\obj_explosion\Create_0.gml
+Converted description /// @description  Initialize explosion
+
+Converting GML script: ${project_dir}\objects\obj_explosion\Step_0.gml
+Converted description /// @description  Fade
+
+Converting GML script: ${project_dir}\objects\obj_explosion\Draw_0.gml
+Converted description /// @description  Draw self
+
+Converting GML script: ${project_dir}\objects\obj_powerup\Create_0.gml
+Converted description /// @description  Initialize powerup
+
+Converting GML script: ${project_dir}\objects\obj_powerup\Other_0.gml
+Converted description /// @description  Destroy powerup
+
+Converting GML script: ${project_dir}\objects\obj_powerup\Draw_0.gml
+Converted description /// @description  Draw self
+
+Converting GML script: ${project_dir}\objects\obj_ship\Create_0.gml
+Converted description /// @description  Initialize ship
+
+Converting GML script: ${project_dir}\objects\obj_ship\Alarm_1.gml
+Converted description /// @description  Deactivate powerups
+
+Converting GML script: ${project_dir}\objects\obj_ship\Alarm_0.gml
+Converted description /// @description  Weapons
+
+Converting GML script: ${project_dir}\objects\obj_ship\Step_0.gml
+Converted description /// @description  Move ship & Die
+
+Converting GML script: ${project_dir}\objects\obj_ship\Collision_861dc296-f39e-4401-918c-e9caa39caf28.gml
+Converted description /// @description  Collide
+
+Converting GML script: ${project_dir}\objects\obj_ship\Collision_412edfd1-d75d-4b1a-affa-81181a585be3.gml
+Converted description /// @description  Collect shuriken powerup
+
+Converting GML script: ${project_dir}\objects\obj_ship\Collision_651252d5-d172-46d9-ae9c-bad8309a968b.gml
+Converted description /// @description  Collect minigun powerup
+
+Converting GML script: ${project_dir}\objects\obj_ship\Collision_b0cb67e0-526b-4546-bed7-0f15277ebcc2.gml
+Converted description /// @description  Collect sword powerup
+
+Converting GML script: ${project_dir}\objects\obj_ship\Collision_aa52daff-4501-4fbb-858b-4eed23f74eca.gml
+Converted description /// @description  Collect laser powerup
+
+Converting GML script: ${project_dir}\objects\obj_ship\Collision_0f704d61-c075-4321-b539-0f8314d6b6cf.gml
+Converted description /// @description  Collect armor powerup
+
+Converting GML script: ${project_dir}\objects\obj_ship\Collision_b019d1cc-7f74-4966-8b98-a0bfbd989ac0.gml
+Converted description /// @description  Randomize
+
+Converting GML script: ${project_dir}\objects\obj_ship\Draw_0.gml
+Converted description /// @description  Draw self
+
+Converting GML script: ${project_dir}\objects\obj_laser\Create_0.gml
+Converted description /// @description  Initialize laser
+
+Converting GML script: ${project_dir}\objects\obj_laser\Collision_f97405ce-1043-40f2-868c-101ac2e18d4a.gml
+Converted description /// @description  Damage
+
+Converting GML script: ${project_dir}\objects\obj_laser\Other_0.gml
+Converted description /// @description  Clear outside room
+
+Converting GML script: ${project_dir}\objects\obj_laser\Draw_0.gml
+Converted description /// @description  Draw glow
+
+Converting GML script: ${project_dir}\objects\obj_minilaser\Create_0.gml
+Converted description /// @description  Initialize laser
+
+Converting GML script: ${project_dir}\objects\obj_minilaser\Collision_0e75e81c-954a-4863-af36-01b04332f21f.gml
+Converted description /// @description  Damage
+
+Converting GML script: ${project_dir}\objects\obj_minilaser\Other_0.gml
+Converted description /// @description  Clear outside room
+
+Converting GML script: ${project_dir}\objects\obj_minilaser\Draw_0.gml
+Converted description /// @description  Draw glow
+
+Converting GML script: ${project_dir}\objects\obj_sword\Step_0.gml
+Converted description /// @description  Properties
+
+Converting GML script: ${project_dir}\objects\obj_sword\Collision_dcae55e2-4cb9-4b6f-a1dc-a14a36294a4c.gml
+Converted description /// @description  Destroy
+
+Converting GML script: ${project_dir}\objects\obj_sword\Collision_68226c1d-46ec-427b-817a-0fee4e7120d3.gml
+Converted description /// @description  Destroy
+
+Converting GML script: ${project_dir}\objects\obj_sword\Collision_b728c0d7-afab-4a50-b46b-13d855277789.gml
+Converted description /// @description  Damage
+
+Converting GML script: ${project_dir}\objects\obj_sword\Draw_0.gml
+Converted description /// @description  Draw glow
+
+Converting GML script: ${project_dir}\objects\obj_shuriken\Create_0.gml
+Converted description /// @description  Initialize shuriken
+
+Converting GML script: ${project_dir}\objects\obj_shuriken\Step_0.gml
+Converted description /// @description  Follow enemy & rotate
+
+Converting GML script: ${project_dir}\objects\obj_shuriken\Collision_58a9af36-9b5c-472f-af8a-cd75d4a62790.gml
+Converted description /// @description  Damage
+
+Converting GML script: ${project_dir}\objects\obj_shuriken\Other_0.gml
+Converted description /// @description  Clear outside room
+
+Converting GML script: ${project_dir}\objects\obj_shuriken\Draw_0.gml
+Converted description /// @description  Draw glow
+
+Converting GML script: ${project_dir}\objects\obj_enemy_parent\Step_0.gml
+Converted description /// @description  Control enemy
+
+Converting GML script: ${project_dir}\objects\obj_enemy_parent\Collision_0376b997-f938-44ee-bb20-b6ddae430569.gml
+Converted description /// @description  Damage ship & destroy enemy
+
+Converting GML script: ${project_dir}\objects\obj_enemy_parent\Draw_0.gml
+Converted description /// @description  Draw self
+
+Converting GML script: ${project_dir}\objects\obj_comet\Create_0.gml
+Converted description /// @description  Initialize enemy
+
+Converting GML script: ${project_dir}\objects\obj_comet\Step_0.gml
+Converted description /// @description  Back Flame & Rotation
+
+Converting GML script: ${project_dir}\objects\obj_bat_still\Create_0.gml
+Converted description /// @description  Initialize enemy
+
+Converting GML script: ${project_dir}\objects\obj_bat_still\Alarm_0.gml
+Converted description /// @description  Shoot
+
+Converting GML script: ${project_dir}\objects\obj_bat_still\Step_0.gml
+Converted description /// @description  Old shoot engine
+
+Converting GML script: ${project_dir}\objects\obj_bat_fly\Create_0.gml
+Converted description /// @description  Initialize enemy
+
+Converting GML script: ${project_dir}\objects\obj_bat_fly\Step_0.gml
+Converted description /// @description  Bounce off & Old shoot engine
+
+Converting GML script: ${project_dir}\objects\obj_soundwave\Create_0.gml
+Converted description /// @description  Initialize soundwave
+
+Converting GML script: ${project_dir}\objects\obj_soundwave\Step_0.gml
+Converted description /// @description  !DISABLED! Fade out
+
+Converting GML script: ${project_dir}\objects\obj_soundwave\Collision_6c94ed34-4b5e-40af-994a-03c4088e1ef6.gml
+Converted description /// @description  Damage
+
+Converting GML script: ${project_dir}\objects\obj_soundwave\Other_0.gml
+Converted description /// @description  Clear outside room
+
+Converting GML script: ${project_dir}\objects\obj_soundwave\Draw_0.gml
+Converted description /// @description  Draw glow
+
+Converting GML script: ${project_dir}\objects\obj_enemy_laser\Create_0.gml
+Converted description /// @description  Initialize enemy laser
+
+Converting GML script: ${project_dir}\objects\obj_enemy_laser\Collision_cd2d9517-aa39-45e1-bf66-fec6905ec306.gml
+Converted description /// @description  Damage
+
+Converting GML script: ${project_dir}\objects\obj_enemy_laser\Other_0.gml
+Converted description /// @description  Clear outside room
+
+Converting GML script: ${project_dir}\objects\obj_enemy_laser\Draw_0.gml
+Converted description /// @description  Draw glow
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship_parent\Step_0.gml
+Converted description /// @description  Follow player, Stop & Check Height
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\objects\obj_enemy_ship1\Create_0.gml
+Converted description /// @description  Initialize enemy ship
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship1\Alarm_0.gml
+Converted description /// @description  Shoot
+
+Converting GML script: ${project_dir}\objects\obj_enemy_ship1\Step_0.gml
+Converted description /// @description  Back flame
+
+Game speed set to 60
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script '__global_object_depths.gml'

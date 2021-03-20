@@ -1,0 +1,76 @@
+/// @description Contract 10 from
+with(obj_custommode_cntrl){
+var par=obj_smodeParent;
+#region//Comet
+	#region//Base
+	if(room==rm_editcomet_armorCM){
+		if(comet_armor=="random"){
+			if(comet_endR_armor>comet_startR_armor+(par.dif_pointsPP))comet_endR_armor-=par.dif_pointsPP;
+		}
+	}
+	if(room==rm_editcomet_dmgCM){
+		if(comet_dmg=="random"){
+			if(comet_endR_dmg>comet_startR_dmg+(par.dif_pointsPP))bat_endR_dmg-=par.dif_pointsPP;
+		}
+	}
+	#endregion
+	#region//Death
+	if(room==rm_editcomet_pointsCM){
+		if(comet_points=="random"){
+			if(comet_endR_points>comet_startR_points+(par.dif_pointsPP))comet_endR_points-=par.dif_pointsPP;
+		}
+	}
+	#endregion
+#endregion
+#region//Bat
+	#region//Base
+	if(room==rm_editbat_armorCM){
+		if(bat_armor=="random"){
+			if(bat_endR_armor>bat_startR_armor+(par.dif_pointsPP))bat_endR_armor-=par.dif_pointsPP;
+		}
+	}
+	if(room==rm_editbat_dmgCM){
+		if(bat_dmg=="random"){
+			if(bat_endR_dmg>bat_startR_dmg+(par.dif_pointsPP))bat_endR_dmg-=par.dif_pointsPP;
+		}
+	}
+	#endregion
+	#region//Death
+	if(room==rm_editbat_pointsCM){
+		if(bat_points=="random"){
+			if(bat_endR_points>bat_startR_points+(par.dif_pointsPP))bat_endR_points-=par.dif_pointsPP;
+		}
+	}
+	#endregion
+#endregion
+#region//En Ship1
+	#region//Base
+	if(room==rm_edit_enShip1_armorCM){
+		if(en_ship1_armor=="random"){
+			if(en_ship1_endR_armor>en_ship1_startR_armor+(par.dif_pointsPP))en_ship1_endR_armor-=par.dif_pointsPP;
+		}
+	}
+	/*if(room==rm_edit_enShip1_dmgCM){
+		if(en_ship1_dmg=="random"){
+			if(en_ship1_endR_dmg>en_ship1_startR_dmg+(par.dif_pointsPP))en_ship1_endR_dmg-=par.dif_pointsPP;
+		}
+	}*/
+	#endregion
+	#region//Death
+	if(room==rm_edit_enShip1_pointsCM){
+		if(en_ship1_points=="random"){
+			if(en_ship1_endR_points>en_ship1_startR_points+(par.dif_pointsPP))en_ship1_endR_points-=par.dif_pointsPP;
+		}
+	}
+	#endregion
+#endregion
+#region//HLaser
+	#region//Base
+	if(room==rm_edit_HLaser_dmgCM){
+		if(hlaser_dmg=="start"){
+			if(hlaser_endR_dmg>hlaser_startR_dmg+(par.dif_dmgPP))hlaser_endR_dmg-=par.dif_dmgPP;
+		}
+	}
+	#endregion
+#endregion
+}

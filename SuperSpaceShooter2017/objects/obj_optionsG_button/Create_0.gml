@@ -1,0 +1,21 @@
+/// @description  Initialize button
+event_inherited();
+text = "Options";
+depth=global.huddepth;
+with(obj_view_controller)screenshake=0;
+options_on=false;
+xxbg=109;
+yybg=134;
+xx1=109;
+yy1=68;
+xx2=64;
+xx3=44;
+yy2t4dif=40;
+xx7=20;
+xx4=91;
+xx5=127;
+yy5=184;
+xx6=106;
+yy6=236;
+xx8=26;
+yy8=32;

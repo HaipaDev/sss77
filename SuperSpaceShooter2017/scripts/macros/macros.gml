@@ -1,0 +1,8 @@
+#macro LASER 0
+#macro ENEMY_SPAWNER 0
+#macro POWERUP_SPAWNER 1
+#macro POWERUP_WARNOFF 1
+#macro SCREENSHAKE 0
+#macro BOSS_SPAWNER 2
+#macro REFREEZE 0
+#macro WAVE_TEXT 0

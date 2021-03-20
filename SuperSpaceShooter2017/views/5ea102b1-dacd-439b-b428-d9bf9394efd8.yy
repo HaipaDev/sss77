@@ -1,0 +1,31 @@
+{
+    "id": "5ea102b1-dacd-439b-b428-d9bf9394efd8",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "5ea102b1-dacd-439b-b428-d9bf9394efd8",
+    "children": [
+        "06d4d9ea-4518-4083-865d-9fc3ee09114b",
+        "03ac6246-a2f1-48f8-806d-d9782ea1be83",
+        "7f34f8c4-5d69-40fa-92f6-973c064b7e50",
+        "a850a18a-f0ed-4c47-8e2c-749ebffa3df9",
+        "8512bc83-1d64-46db-8bf2-94107b8f0b1b",
+        "8d46cb4b-536e-413c-b69e-0cf5fa000df7",
+        "805a4efb-f9c7-43cd-b6d9-d96bcfee8d39",
+        "b3e00af2-08ed-47df-a4d6-650f2d64b203",
+        "978ae113-d3dc-4f0c-a111-4300eb3a4159",
+        "fdda7935-0459-4ccb-b8a5-b22fb2794d19",
+        "f44c0b79-1c95-4dbc-9b3b-463e346360c8",
+        "2eb9d221-a6d1-4a16-a816-4fa0ed2a6808",
+        "9b963bab-84d6-4eee-9a4b-042830bed58f",
+        "e88713d9-8485-4c94-8f3f-59e6308309ee",
+        "68ba0b6a-118d-4ff0-9aa3-fdb6c0be9580",
+        "5bd893c8-e072-4804-8d6d-a7cc33d544cf",
+        "5d505e03-0156-44e2-85fe-b21cd66e7907",
+        "f681e3ca-5977-42f8-9717-9bd303b41b40",
+        "10cd6a15-8c5f-453e-baea-2b432ce3f84c"
+    ],
+    "filterType": "GMIncludedFile",
+    "folderName": "audio",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

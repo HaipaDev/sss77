@@ -1,0 +1,14 @@
+if (file_exists("SMRandomize.sav")) file_delete("SMRandomize.sav");
+ini_open("SMRandomize.sav");
+var cntrl=obj_custommode_cntrl;
+var saved_ship = string(cntrl.rndmz_ship);
+var saved_pwrups = string(cntrl.rndmz_pwrups);
+var saved_pwrup_props = string(cntrl.rndmz_pwrup_props);
+var saved_enemies = string(cntrl.rndmz_enemies);
+var saved_waves = string(cntrl.rndmz_enemies);
+ini_write_string("Randomize", "Ship", saved_ship);
+ini_write_string("Randomize", "Pwrups", saved_pwrups);
+ini_write_string("Randomize", "PwrupProps", saved_pwrup_props);
+ini_write_string("Randomize", "Enemies", saved_enemies);
+ini_write_string("Randomize", "Waves", saved_waves);
+ini_close();

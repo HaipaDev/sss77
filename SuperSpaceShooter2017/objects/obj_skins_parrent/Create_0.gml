@@ -1,0 +1,34 @@
+/// @description Properties
+hover=false;
+color=c_gray;
+owned=false;
+star_amount=0;
+type="default";
+preunlocked=false;
+eq=false;
+locked_text="Locked";
+special=false;
+name2="";
+yy=y+70;
+rarity_colors();
+if(room_is_lockbox1x()){
+	image_xscale=3;
+	image_yscale=image_xscale;
+	depth=-1001;
+}
+if(room_is_lockbox5x() or room_is_lockbox10x()){
+	image_xscale=1.4;
+	image_yscale=image_xscale;
+	depth=-1001;
+	yy=y+24;
+}
+skin_type3=-1;
+alarm[0]=room_speed/6;
+hold_time=0.55;
+edit=false;
+msg="";
+dstar=false;
+longname=false;
+align=1;
+xx=x;
+xxleft=xx-24;

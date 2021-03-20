@@ -1,0 +1,15 @@
+{
+    "id": "0e7244d2-6357-4f52-bce9-a8b4330c9a85",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "0e7244d2-6357-4f52-bce9-a8b4330c9a85",
+    "children": [
+        "fd8501e5-1397-462d-a22a-22c96cd4819c",
+        "8a8bab90-e90f-4275-915c-170fb3f481a5",
+        "793b1817-d19b-4f93-b919-bee6ade037d6"
+    ],
+    "filterType": "GMObject",
+    "folderName": "Dissonance",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

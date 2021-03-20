@@ -1,0 +1,2 @@
+/// @description Hover
+hover=true;

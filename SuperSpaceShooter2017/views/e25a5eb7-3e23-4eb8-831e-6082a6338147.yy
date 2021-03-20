@@ -1,0 +1,30 @@
+{
+    "id": "e25a5eb7-3e23-4eb8-831e-6082a6338147",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "e25a5eb7-3e23-4eb8-831e-6082a6338147",
+    "children": [
+        "e6e1cd94-b36c-4c70-91b3-f8c46a553b0c",
+        "48698d2e-f259-4daa-83c4-5b8b2db2540c",
+        "2971bb3b-5a5b-414c-abfa-6d39b2d78021",
+        "b4f6643b-b405-489c-9b7f-6097c93e9985",
+        "e32b0546-905d-436a-b9ab-a80553bf2a83",
+        "e6237d23-f3ba-4aa8-b6dc-816675e34a56",
+        "71d76718-0084-4a89-abc3-f0f06cce7450",
+        "6848c8ee-e55d-4c95-b3a9-9f9648858875",
+        "e0233f97-46f0-4834-9179-0e3c10f4d76d",
+        "1e66dfa8-db51-44f5-a30a-041155b41924",
+        "427412cb-8f89-4fbd-a671-6d1a5594b6c5",
+        "cf89e7b6-c661-4604-8dd8-46e6b42c5f10",
+        "12377510-37c3-4a2b-b803-cdb04fe8e118",
+        "328824f5-09ea-4bdd-a24b-1f3a0d571ca1",
+        "e2015579-7890-424a-8482-5082f6f58dcc",
+        "1d1e8e79-d657-4241-b13e-886eeee38cdd",
+        "26adb952-e60f-4952-b04d-a5379aae6287",
+        "b5705ba3-719a-4828-a3c0-05cb3c211ee4"
+    ],
+    "filterType": "GMSound",
+    "folderName": "Enemies",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

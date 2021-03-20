@@ -1,0 +1,76 @@
+/// @description Add 10 to
+with(obj_custommode_cntrl){
+var par=obj_smodeParent;
+#region//Comet
+	#region//Base
+	if(room==rm_editcomet_armorCM){
+		if(comet_armor=="random"){
+			if(comet_startR_armor<comet_endR_armor-(par.dif_hpPP))comet_startR_armor+=par.dif_hpPP;
+		}
+	}
+	if(room==rm_editcomet_dmgCM){
+		if(comet_dmg=="random"){
+			if(comet_startR_dmg<comet_endR_dmg-(par.dif_dmgPP))comet_startR_dmg+=par.dif_dmgPP;
+		}
+	}
+	#endregion
+	#region//Death
+	if(room==rm_editcomet_pointsCM){
+		if(comet_points=="random"){
+			if(comet_startR_points<comet_endR_points-(par.dif_pointsPP))comet_startR_points+=par.dif_pointsPP;
+		}
+	}
+	#endregion
+#endregion
+#region//Bat
+	#region//Base
+	if(room==rm_editbat_armorCM){
+		if(bat_armor=="random"){
+			if(bat_startR_armor<bat_endR_armor-(par.dif_hpPP))bat_startR_armor+=par.dif_hpPP;
+		}
+	}
+	if(room==rm_editbat_dmgCM){
+		if(bat_dmg=="random"){
+			if(bat_startR_dmg<bat_endR_dmg-(par.dif_dmgPP))bat_startR_dmg+=par.dif_dmgPP;
+		}
+	}
+	#endregion
+	#region//Death
+	if(room==rm_editbat_pointsCM){
+		if(bat_points=="random"){
+			if(bat_startR_points<bat_endR_points-(par.dif_pointsPP))bat_startR_points+=par.dif_pointsPP;
+		}
+	}
+	#endregion
+#endregion
+#region//En Ship1
+	#region//Base
+	if(room==rm_edit_enShip1_armorCM){
+		if(en_ship1_armor=="random"){
+			if(en_ship1_startR_armor<en_ship1_endR_armor-(par.dif_hpPP))en_ship1_startR_armor+=par.dif_hpPP;
+		}
+	}
+	/*if(room==rm_edit_enShip1_dmgCM){
+		if(en_ship1_dmg=="random"){
+			if(en_ship1_startR_dmg<en_ship1_endR_dmg-(par.dif_dmgPP))en_ship1_startR_dmg+=par.dif_dmgPP;
+		}
+	}*/
+	#endregion
+	#region//Death
+	if(room==rm_edit_enShip1_pointsCM){
+		if(en_ship1_points=="random"){
+			if(en_ship1_startR_points<en_ship1_endR_points-(par.dif_pointsPP))en_ship1_startR_points+=par.dif_pointsPP;
+		}
+	}
+	#endregion
+#endregion
+#region//HLaser
+	#region//Base
+	if(room==rm_edit_HLaser_dmgCM){
+		if(hlaser_dmg=="start"){
+			if(hlaser_startR_dmg<hlaser_endR_dmg-(par.dif_dmgPP))hlaser_startR_dmg-=par.dif_dmgPP;
+		}
+	}
+	#endregion
+#endregion
+}
